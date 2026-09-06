@@ -1,3 +1,16 @@
+> 2026-09-07：棚上げ保存版の素材を追記。以下の過去版も来歴として保持。
+
+## Forge Asset Study の追加素材
+
+| 素材 | 保存場所 | 出典・利用条件・用途 |
+| --- | --- | --- |
+| 原石6形状・ピッケル・結晶・破片 | `art/source/mining-prototype/`、`scripts/blender/` | 本プロジェクトでローカルBlenderにより制作。外部素材ではなく、本プロジェクトの制作物。第三者クレジット不要 |
+| FBX・マテリアル・Prefab | `game/Assets/Resources/MiningPrototype/` | 上記原本から出力。最初の鉱石・ピッケルでUnityへの読み込みとCollider・向きを確認 |
+| 盤面・ピッケル・ドロップの描画 | `MiningPrototype/BoardArt/` | Blender描画の透過PNG。現在の盤面表示と回収演出に使用。FBXを自由に削る実装ではない |
+| 火花・粉塵・打撃音 | 既存Kenney素材 | [Particle Pack](https://kenney.nl/assets/particle-pack)、[Impact Sounds](https://kenney.nl/assets/impact-sounds)、CC0、必須クレジットなし。既存素材を再利用 |
+
+今回のBlender制作・保存では有料API、素材購入、新規登録を使用していない。以前からある背景・フォント等は下記の来歴・条件を引き継ぐ。破片とひびはUnity UIの描画・アニメーション。初回インポート用の岩・破壊岩等は保存しているが、全モデルが現在のゲームで表示されるわけではない。
+
 # 使用素材と出典
 
 更新日：2026-09-06。P0a-02は2Dの盤面を使用。導入済みと調査候補を以下で区別する。

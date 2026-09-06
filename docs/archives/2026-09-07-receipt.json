@@ -1,0 +1,13 @@
+{
+  "zip": "mining-forge-shelved-2026-09-07.zip",
+  "bytes": 374631134,
+  "sha256": "ccffcd7bb0c5f010d30ed896d5754a4b8c5aed2e218b9d4455e77493896f569a",
+  "snapshot_commit": "f3b76d7cdc57858bf89949b60ad56621316243e3",
+  "entries": 1209,
+  "verification": "Every entry read back; SHA256, sizes and ZIP CRC checked.",
+  "release_url": "https://github.com/KOSEIHAMAYA2077/mining-forge/releases/tag/archive-dq11-prototype-2026-09-07",
+  "github_digest": "sha256:ccffcd7bb0c5f010d30ed896d5754a4b8c5aed2e218b9d4455e77493896f569a",
+  "github_state": "uploaded",
+  "pull_request": "https://github.com/KOSEIHAMAYA2077/mining-forge/pull/8",
+  "note": "Post-upload receipt. ZIP snapshot and Git bundle precede this receipt commit."
+}

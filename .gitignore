@@ -23,6 +23,8 @@ desktop.ini
 /tmp/
 /builds/
 /artifacts/
+/archives/
+/art/source/mining-prototype/*.blend1
 /tests/bin/
 /tests/obj/
 
