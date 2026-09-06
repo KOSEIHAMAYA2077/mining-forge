@@ -4,6 +4,8 @@
 
 **現在は企画・設計段階です。Unityプロジェクト、実行可能なゲーム、プレイ検証結果はまだありません。** 製品名・舞台・最終的な撤退ルールは未決定です。
 
+[GitHubリポジトリ（非公開）](https://github.com/KOSEIHAMAYA2077/mining-forge) · [作業一覧](https://github.com/KOSEIHAMAYA2077/mining-forge/issues)
+
 ## 最初に読む
 
 - [START_HERE](docs/START_HERE.md)：作業フォルダ、読み順、実装担当への渡し方

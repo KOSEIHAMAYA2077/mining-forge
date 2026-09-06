@@ -33,4 +33,14 @@
 
 ## 次の一手
 
-次回、ユーザーが試作を依頼したらP0aを開始する。現在の入口は `docs/handoff/CURRENT.md`。GitHub保存と文書確認の最終結果は、このメモの追記に残す。
+次回、ユーザーが試作を依頼したらP0aを開始する。現在の入口は `docs/handoff/CURRENT.md`、作業単位は [Issue #1](https://github.com/KOSEIHAMAYA2077/mining-forge/issues/1)。
+
+## 保存・文書基盤の確認結果
+
+- [KOSEIHAMAYA2077/mining-forge](https://github.com/KOSEIHAMAYA2077/mining-forge) を作成し、非公開・既定ブランチmainを確認。
+- 初回コミット `c07a0d4` をpushし、ローカルとリモートのコミットID一致を確認。
+- 21個のMarkdown文書について文字化け置換文字と内部ファイルリンクを点検。初回27リンクの参照先は全件存在した。
+- コミット前の差分チェックで空白エラーなし。既知の認証トークン形式・秘密鍵ヘッダの走査で該当なし。
+- UnityのLibrary・Tempと.envが除外され、ゲームのソースと.metaが除外されないことを確認。
+- [Issue #1〜#5](https://github.com/KOSEIHAMAYA2077/mining-forge/issues) を作成し、全件OPENを確認。内容は未着手。
+- この追記とGitHubへの案内リンクを、初回保存後の文書更新としてコミットする。

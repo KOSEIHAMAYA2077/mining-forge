@@ -13,6 +13,18 @@
 
 P0を作る段階ではM3以降の基盤を先取りしない。P0aだけで作品完成とせず、ユーザーが求めた3系統の循環までP0bでつなぐ。
 
+## GitHubの作業一覧
+
+M0は文書とリポジトリの作成を完了。以下は未着手のバックログであり、自動的な実装開始の指示ではない。
+
+- [#1：M1 / P0a 採取一回](https://github.com/KOSEIHAMAYA2077/mining-forge/issues/1)
+- [#2：M2 / P0b 3系統の循環](https://github.com/KOSEIHAMAYA2077/mining-forge/issues/2)
+- [#3：M3 / P1 失敗と撤退の比較](https://github.com/KOSEIHAMAYA2077/mining-forge/issues/3)
+- [#4：M4 完成版の内容と結末](https://github.com/KOSEIHAMAYA2077/mining-forge/issues/4)
+- [#5：M5 仕上げと配布準備](https://github.com/KOSEIHAMAYA2077/mining-forge/issues/5)
+
+M4・M5は後の作業を見失わないための大きな区切り。着手時に、確定した内容に合わせて小さなIssueへ分ける。
+
 ## 最初の完成版に置く上限案
 
 以下は膨張を止める上限で、すべてを作る約束ではない。

@@ -2,6 +2,8 @@
 
 更新日：2026-09-06。現在の対象ブランチ：`main`。現在の作業は調査・設計・保存基盤の準備まで。
 
+保存先：[GitHub](https://github.com/KOSEIHAMAYA2077/mining-forge)（非公開）。次の作業：[Issue #1](https://github.com/KOSEIHAMAYA2077/mining-forge/issues/1)。
+
 ## 次回の具体的な一件
 
 **ユーザーが試作を依頼したら、P0a：結晶1個の共通採取を作る。** まずUnityの導入状況・版・ビルド環境を確認し、その結果を記録する。環境に応じた最小のプロジェクトを `game/` に作成する。今はゲームのフォルダ自体がまだない。

@@ -22,6 +22,12 @@ C:\Users\kouha\Documents\ChatGPT\採掘系のゲーム作成？\docs\START_HERE.
 
 GitHubのこのリポジトリを任意の場所へcloneし、**clone先のルートフォルダ**をCodexに指定します。このWindowsの絶対パスをMacなどにコピーする必要はありません。文書内リンクと作業規則はリポジトリ基準の相対パスを使います。
 
+保存先：[KOSEIHAMAYA2077/mining-forge](https://github.com/KOSEIHAMAYA2077/mining-forge)（非公開）。アクセスできるGitHubアカウントで認証してから取得します。
+
+```sh
+git clone https://github.com/KOSEIHAMAYA2077/mining-forge.git
+```
+
 将来Unityで開く場所は `<clone先>/game/` です。現在はUnityプロジェクトが存在しないため、Unity Hubへ登録する段階ではありません。
 
 ## 読み順と次の依頼
