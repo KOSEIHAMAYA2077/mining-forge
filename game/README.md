@@ -1,4 +1,18 @@
-# Mining Forge — P0a-02「晶脈の標本」
+# Mining Forge — P0a-03「鍛冶の試作」
+
+2026-09-07。CR-003のシステム再現版。Unity 6000.3.18f1 / URP17.3.0。全14操作、4種の地金効果、会心、必殺、新規作成とうちなおしを実装。**品質と確率等は原作の数値照合が未完了**で、完全一致版ではない。試験用レシピと共通素材数を使う。アプリを閉じると所持品はリセットされる。
+
+- Unity：`Assets/Scenes/ForgeStudy.unity`を開いてPlay。旧BoardStudyはP0a-02。
+- ビルド：ルートから `powershell -ExecutionPolicy Bypass -File scripts/build-forge.ps1 -OutputFolder P0a-03-final`。出典は出力のSOURCE.txt。
+- 操作：地金を選んで「この地金を鍛える」。たたく／とくぎ→部位→決定して実行。くわしくみるは無料、しあげるで確定。必殺がチャージされたら専用コマンドが現れる。
+- キーボード：Tabで準備・所持品の左右領域を切替、矢印で選択、Enter決定、Esc戻る。採取中の放棄・やり直しはない。
+- レベルは準備画面で12・26・38・55・60・99を選択。実際の技習得と集中力が変わる。素材・レベルの用意は比較用メニューであり原作RPG部分の再現ではない。
+- `dotnet run --project tests/ForgeRules.Tests.csproj`：新しい判定・境界・取引テスト。原作との数値一致の証明ではない。
+- 実行版 `--forge-smoke`：UI処理を呼ぶ自動確認。`artifacts/P0a-03`へ画像とレポートを保存。チャージ確率はこのモードだけ強制、通常JSONは変更しない。OS入力・聴感とは区別。
+- `--forge-debug`：部位の実数値と評価誤差を開発表示。
+- 未確認係数：`Assets/Resources/ForgeCalibration.json`。根拠と残件は `docs/handoff/changes/CR-003-REFERENCE.md`。各材料の価格・個別素材ID・原作全レシピは未移植。
+
+## 旧P0a-02の記録
 
 形のある6マスを、単体・範囲技と活性の調整で仕上げる2D一画面の試作。Unity **6000.3.18f1** / URP **17.3.0** / Windows x64（Mono）。
 

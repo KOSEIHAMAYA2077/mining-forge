@@ -1,0 +1,20 @@
+{
+  "baseMinimum": 12,
+  "baseMaximum": 18,
+  "revertMinimum": 12,
+  "revertMaximum": 16,
+  "criticalAtLevel1": 0.01,
+  "criticalPerLevel": 0.001,
+  "difficultyPenalty": 0.003,
+  "chargeChance": 0.06,
+  "eventCriticalMultiplier": 2,
+  "requireFullFootprint": true,
+  "eventsAtStart": false,
+  "hotWindUsesCooledValue": false,
+  "exactBonus": 5,
+  "plus3Error": 0,
+  "plus2Error": 12,
+  "plus1Error": 28,
+  "normalError": 50,
+  "status": "仮係数あり・原作との数値照合は未完了"
+}

@@ -2,7 +2,7 @@
 
 未知の採集物を、一手ずつ加減して取り出す。結晶で道具を作り、遺物で採り方を変え、魔力で技を覚え、次の探索へ向かう小さな一人用ゲーム。
 
-**現在は企画・設計段階です。Unityプロジェクト、実行可能なゲーム、プレイ検証結果はまだありません。** 製品名・舞台・最終的な撤退ルールは未決定です。
+**現在はUnity試作P0a-03を開発中です。** DQ11鍛冶のシステム再現を優先し、呼称は活性度を使用します。全技・必殺・地金効果などを実装しましたが、確率・品質係数の原作一致は未確認です。実際の起動場所・確認状況は [CURRENT](docs/handoff/CURRENT.md)。
 
 [GitHubリポジトリ（非公開）](https://github.com/KOSEIHAMAYA2077/mining-forge) · [作業一覧](https://github.com/KOSEIHAMAYA2077/mining-forge/issues)
 
@@ -22,6 +22,6 @@
 
 共有の正本は、このGitリポジトリのGitHub上の `main` です。ローカルの未コミット変更や、まだpushしていないコミットは共有前の作業です。会話中の案は、文書に反映するまで確定仕様にしません。
 
-リポジトリルートをCodexの作業フォルダに指定します。将来のUnityプロジェクトは `game/`、独自のゲーム素材・コードは `game/Assets/_Project/` に置く計画です。`game/` はまだ作成していません。
+リポジトリルートをCodexの作業フォルダに指定します。Unityプロジェクトは `game/`、現在のソースは `game/Assets/Scripts/`。P0a-03は `feat/dq11-system-reference`、旧P0a-02は `feat/p0a-crystal` で管理し、mainへはまだ統合していません。
 
-参考作品の比較は [Steam調査](docs/research/2026-09-06-steam-comparison.md) に保存しています。参考元の画面・文章・素材の複製は行わず、部位・技・会心・適正ゲージによる判断を独自の採取体験に組み直します。
+参考作品の比較は [Steam調査](docs/research/2026-09-06-steam-comparison.md)。最新の指示は [CR-003](docs/handoff/changes/CR-003.md)で、まずシステムを再現し、独自の採取や殻剥がしは後から追加します。使用素材と出典は [ASSETS](docs/ASSETS.md)。
