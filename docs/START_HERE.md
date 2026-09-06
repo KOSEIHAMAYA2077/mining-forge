@@ -55,3 +55,5 @@ git clone https://github.com/KOSEIHAMAYA2077/mining-forge.git
 | GitHub Issues / PR | 個別の作業単位、関連する差分と確認 |
 
 運用の詳細は [WORKFLOW](WORKFLOW.md)。履歴は残しつつ、次の担当が読む現在地は短く保ちます。
+
+実際に試作を依頼して遊び、感想から修正を戻す手順は [PLAYTEST_LOOP](PLAYTEST_LOOP.md)。初回はP0aで一度プレイを挟む依頼文を用意しています。
