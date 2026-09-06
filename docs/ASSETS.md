@@ -2,6 +2,17 @@
 
 更新日：2026-09-06。P0a-02は2Dの盤面を使用。導入済みと調査候補を以下で区別する。
 
+## CR-002用に保存したもの（ゲーム未導入）
+
+| 素材 | 保存場所 | 出典・状態 |
+| --- | --- | --- |
+| Lucent Crystal Kit V1 | `art/source/lucent-crystal-v1/` | ユーザーの前作one-board-incrementalからコピーしたUnityパッケージ・OBJ8点・元説明。元説明は独自生成メッシュと記載。外部CC0として扱わない。コピー元とハッシュ一致を確認。Built-in向けで、現行URPへの導入は未検証 |
+| 前作の展示画像 | `art/reference/p0a03/lucent-v1-gallery.png` | 前作保存画像のコピー。質感の資料。今回のゲーム画面ではない |
+| 新しい画面構図案 | `art/reference/p0a03/screen-direction.png` | 内蔵imagegenで生成。前作の展示画像を材質参照に指定。文字入り一枚絵の見本で、動作UIではない |
+| 結晶単体の習作 | `art/reference/p0a03/crystal-study-not-transparent.png` | 内蔵imagegenで生成。透過指定は成功しておらず、市松背景入りRGB。透過スプライトとして未完成 |
+
+詳細な来歴と確認は [素材説明](../art/source/lucent-crystal-v1/README.md)、[画像説明](../art/reference/p0a03/README.md)。保存された素材とゲームで実際に使用した素材を区別する。
+
 ## P0a-02で実際に使うもの
 
 | 素材・出典 | 配置場所 | 実際の使用・条件 |
