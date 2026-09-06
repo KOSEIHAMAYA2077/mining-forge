@@ -39,15 +39,15 @@ public static class BuildPrototype
             if(name=="Particle"){m.SetFloat("_Surface",1);m.SetFloat("_SrcBlend",5);m.SetFloat("_DstBlend",10);m.SetFloat("_ZWrite",0);m.EnableKeyword("_SURFACE_TYPE_TRANSPARENT");m.renderQueue=3000;}
             AssetDatabase.CreateAsset(m,materialPath);
         }
-        if(!File.Exists("Assets/Scenes/CrystalStudy.unity"))
+        if(!File.Exists("Assets/Scenes/BoardStudy.unity"))
         {
             EditorSceneManager.NewScene(NewSceneSetup.EmptyScene,NewSceneMode.Single);
-            new GameObject("Mining Forge",typeof(MiningGame));
-            EditorSceneManager.SaveScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene(),"Assets/Scenes/CrystalStudy.unity");
+            new GameObject("Mining Forge Board",typeof(BoardGame));
+            EditorSceneManager.SaveScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene(),"Assets/Scenes/BoardStudy.unity");
         }
-        EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene("Assets/Scenes/CrystalStudy.unity",true)};
-        PlayerSettings.companyName="MiningForge";PlayerSettings.productName="Mining Forge P0a-01";
-        PlayerSettings.bundleVersion="0.1.0";PlayerSettings.defaultScreenWidth=1280;PlayerSettings.defaultScreenHeight=720;
+        EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene("Assets/Scenes/BoardStudy.unity",true)};
+        PlayerSettings.companyName="MiningForge";PlayerSettings.productName="Mining Forge P0a-02";
+        PlayerSettings.bundleVersion="0.2.0";PlayerSettings.defaultScreenWidth=1280;PlayerSettings.defaultScreenHeight=720;
         PlayerSettings.fullScreenMode=FullScreenMode.Windowed;PlayerSettings.resizableWindow=true;PlayerSettings.runInBackground=true;
         PlayerSettings.SetScriptingBackend(UnityEditor.Build.NamedBuildTarget.Standalone,ScriptingImplementation.Mono2x);
         AssetDatabase.SaveAssets();
@@ -57,9 +57,9 @@ public static class BuildPrototype
     {
         Prepare();AssetDatabase.Refresh();
         var args=Environment.GetCommandLineArgs();int outputIndex=Array.IndexOf(args,"-buildOutput");
-        string path=outputIndex>=0&&outputIndex+1<args.Length?Path.GetFullPath(args[outputIndex+1]):Path.GetFullPath("../builds/P0a-01/MiningForge.exe");
+        string path=outputIndex>=0&&outputIndex+1<args.Length?Path.GetFullPath(args[outputIndex+1]):Path.GetFullPath("../builds/P0a-02/MiningForge.exe");
         Directory.CreateDirectory(Path.GetDirectoryName(path));
-        var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/Scenes/CrystalStudy.unity"},locationPathName=path,target=BuildTarget.StandaloneWindows64,options=BuildOptions.None});
+        var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/Scenes/BoardStudy.unity"},locationPathName=path,target=BuildTarget.StandaloneWindows64,options=BuildOptions.None});
         if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Build failed: "+report.summary.result);
         Debug.Log("P0A_BUILD_OK "+path);
     }

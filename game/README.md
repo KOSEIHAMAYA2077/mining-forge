@@ -1,31 +1,30 @@
-# Mining Forge — P0a-01
+# Mining Forge — P0a-02「晶脈の標本」
 
-結晶1個を3部位から分離するWindows試作。Unity **6000.3.18f1** / URP **17.3.0** / C# / Windows x64（Mono）。
+形のある6マスを、単体・範囲技と活性の調整で仕上げる2D一画面の試作。Unity **6000.3.18f1** / URP **17.3.0** / Windows x64（Mono）。
 
-## 遊ぶ
+## 起動・操作
 
-リポジトリルートの `builds/P0a-01/MiningForge.exe` を起動する。隣接する `MiningForge_Data` なども必要。初期表示は1280×720のウィンドウ。
+正式な起動場所とソースIDは [CURRENT](../docs/handoff/CURRENT.md)。ローカルの `builds/P0a-02-final/MiningForge.exe` を起動する。隣接するDataとDLLも必要。初期ウィンドウ1280×720。
 
-- 結晶または右側の部位欄をクリックして選択。キー1・2・3でも選択可能。
-- Q：通常打撃、W：強打、E：そっと削る、R：均等打ち。画面のボタンでも操作可能。
-- 緑の帯が最適。細い白い線は中心、灰色の線は分離条件、赤い線は致命傷。各部位の数値と状態を併記する。
-- 全部位を分離ラインまで進めると「原石を回収」が有効になる。帯まで仕上げると高品質を狙える。
-- 「閉じる」またはEscは同じ結晶を保持。「放棄」は2回押して終了。打撃中は重複操作を受け付けない。
-- 結果画面で「同じ条件でもう一度」は同じseedから再試遊。「別の乱数で試す」はseedを1つ進める。
-- 音量±と画面揺れ（弱／なし）は画面左下。終了ボタンでアプリを閉じる。
+- 左の「たたく」または「特技」→技→中央の位置→「決定して実行」。範囲は右隣・下隣へ広がる。空きや盤面外を含む位置は実行できない。
+- マウスでボタンと位置を選択できる。矢印でメニュー／位置選択、Enterで決定、Escで一段戻る。位置を選んだだけでは叩かない。
+- 黄線と数値は通常の到達範囲、水色線と10%表記は会心時の到達範囲。緑の帯を狙い、赤い破損線に注意する。
+- 活性が高いほど大きく削れ、打撃後に50下がる。「活性を上げる／鎮める」で調整。「詳しく見る」は無料。
+- 「採取する」で結果を確認して終了。6部位が灰色の分離線以上なら原石1個、未分離が残れば報酬なし。破損しても続けられるが品質は最大39。
+- 閉じる／Escの中断は状態を保持。放棄と試遊リセットには確認を表示。アプリ終了で進行と結果は消える。
+- 設定で音量±、画面揺れ（弱／なし）。結果から同じseedか別seedで再試遊。
 
-今回の結果は試遊用で、終了時に消える。工房、倉庫、3系統、経済、永続セーブはP0b以降。
+工房、探索、敵、持ち込みスキル、経済、永続保存は今回含まない。旧P0a-01のビルドは別フォルダに保持。
 
-## Unityで開く・再ビルドする
+## Unityと検証
 
-Unity Hubからこの `game` フォルダを開く。`Assets/Scenes/CrystalStudy.unity` を開いてPlay。シーンは小さな起点で、3D背景とUIは実行時に生成する。
+Unity Hubで `game` を開き、`Assets/Scenes/BoardStudy.unity` をPlay。旧CrystalStudyシーンは旧版の記録。
 
-リポジトリルートで `powershell -ExecutionPolicy Bypass -File scripts/build-windows.ps1`。ビルドの出典は `builds/P0a-01/SOURCE.txt`。`-OutputFolder P0a-01-final` で別フォルダへ生成可能。今回の正式な引き渡し先は [CURRENT](../docs/handoff/CURRENT.md) を参照。ビルド一式はGit管理外なので、他端末では同じエディタで再ビルドするか、出力フォルダ全体を渡す。
+ルートで `powershell -ExecutionPolicy Bypass -File scripts/build-windows.ps1 -OutputFolder P0a-02-final`。出力の `SOURCE.txt` で出典を確認。ビルド一式はGit管理外。他端末では同じエディタで再ビルドするか、出力フォルダ全体を渡す。
 
-## 検証と調整
-
-- `dotnet run --project tests/MiningRules.Tests.csproj`（.NET SDK 10）：共有する実際の採取計算を境界・取引・乱数の再現性で検証。
-- `MiningForge.exe --smoke-test -logFile <絶対ログパス>`：描画を伴う実行確認。UIボタンの処理を呼び出して採取・回収・損傷・開閉を確認し、2解像度の画面を `artifacts/P0a-01` に保存する。OSからの実クリック／キーボード試験とは区別する。
-- `Assets/Resources/MiningConfig.json`：集中力、中心、帯、技の範囲と消費、会心率。構造は3部位・4技固定。
-- 描画用乱数は採取乱数から独立。同じseed・同じ操作列なら同じ採取結果。
-- 素材とライセンスは `../docs/ASSETS.md`。
+- `dotnet run --project tests/MiningRules.Tests.csproj`：採取計算の境界、トランザクション、複数seedの回収手順比較。
+- `MiningForge.exe --smoke-test -logFile <絶対ログパス>`：UI処理を呼ぶ自動試遊、描画・日本語の高さ・音声出力のチェック。画像は `artifacts/P0a-02`。OS入力試験とは区別する。
+- `MiningForge.exe --fixed-activity --seed 1701`：開発用比較。活性1000固定、調整不可。同じ盤面・技・seedで比較できる。通常メニューにこの切替は置かない。
+- `Assets/Resources/BoardConfig.json`：6マスの配置・中心・帯・技の量と消費・活性・会心率。小さな固定構造。
+- ルール本体は `BoardRules.cs`。UI、演出、スモークテストは `BoardGame` の分割ファイル。表示用乱数は採取乱数から独立。
+- [素材とライセンス](../docs/ASSETS.md)、[現在仕様](../docs/handoff/changes/CR-001-SPEC.md)。

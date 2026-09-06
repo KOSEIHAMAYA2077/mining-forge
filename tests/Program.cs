@@ -16,6 +16,7 @@ static class Tests
     }
     static void Main()
     {
+        BoardTests.Run();
         Check(MiningSession.PartQuality(45,45,55)==100 && MiningSession.PartQuality(55,45,55)==100,"band edges");
         Check(MiningSession.PartQuality(44,45,55)==98 && MiningSession.PartQuality(56,45,55)==95,"outside band");
         Check(MiningSession.PartQuality(200,45,55)==0,"quality floor");

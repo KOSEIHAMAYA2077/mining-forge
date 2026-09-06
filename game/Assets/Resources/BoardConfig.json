@@ -1,0 +1,15 @@
+{
+  "focus": 120, "initialActivity": 1000, "activityDrop": 50,
+  "band": 5, "separationMargin": 15, "damageMargin": 20, "criticalPercent": 10,
+  "cells": [
+    {"id":"A","row":0,"column":0,"center":50},
+    {"id":"B","row":0,"column":1,"center":80},
+    {"id":"C","row":1,"column":0,"center":80},
+    {"id":"D","row":1,"column":1,"center":50},
+    {"id":"E","row":2,"column":0,"center":110},
+    {"id":"F","row":3,"column":0,"center":110}
+  ],
+  "minimum":[18,36,9,18,18,18,0,0],
+  "maximum":[26,52,13,26,26,26,0,0],
+  "costs":[5,8,3,8,8,14,8,4]
+}

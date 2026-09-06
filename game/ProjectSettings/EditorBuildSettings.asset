@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/CrystalStudy.unity
-    guid: febd6b81627046d4e9cc9e3772d66f5b
+    path: Assets/Scenes/BoardStudy.unity
+    guid: 67d8d2478db94a94aa71d2215a735fb2
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

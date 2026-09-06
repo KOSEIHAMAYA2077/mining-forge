@@ -1,4 +1,4 @@
-param([string]$Unity = 'C:/Program Files/Unity/Hub/Editor/6000.3.18f1/Editor/Unity.exe', [string]$OutputFolder = 'P0a-01')
+param([string]$Unity = 'C:/Program Files/Unity/Hub/Editor/6000.3.18f1/Editor/Unity.exe', [string]$OutputFolder = 'P0a-02')
 $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $projectPath = Join-Path $repoRoot 'game'
@@ -12,5 +12,5 @@ if ($process.ExitCode -ne 0) { throw "Unity build failed. See $logPath" }
 $revision = git -C $repoRoot rev-parse HEAD
 $dirty = git -C $repoRoot status --porcelain -- game
 $source = if ($dirty) { "$revision (uncommitted game changes)" } else { $revision }
-Set-Content -LiteralPath (Join-Path (Split-Path $outputPath) 'SOURCE.txt') -Value "P0a-01`nSource: $source`nUnity: 6000.3.18f1" -Encoding utf8
+Set-Content -LiteralPath (Join-Path (Split-Path $outputPath) 'SOURCE.txt') -Value "P0a-02`nSource: $source`nUnity: 6000.3.18f1" -Encoding utf8
 Write-Output "Built: $outputPath"
