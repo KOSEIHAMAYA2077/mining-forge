@@ -1,0 +1,33 @@
+# Unity project generated files
+/game/[Ll]ibrary/
+/game/[Tt]emp/
+/game/[Oo]bj/
+/game/[Ll]ogs/
+/game/[Uu]ser[Ss]ettings/
+/game/[Bb]uild/
+/game/[Bb]uilds/
+/game/[Mm]emoryCaptures/
+/game/[Rr]ecordings/
+/game/.vs/
+/game/*.csproj
+/game/*.sln
+/game/*.slnx
+/game/*.user
+/game/*.pidb
+
+# Local tools and export results
+.DS_Store
+Thumbs.db
+desktop.ini
+/tmp/
+/builds/
+/artifacts/
+
+# Credentials; sample configuration may be tracked
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.keystore

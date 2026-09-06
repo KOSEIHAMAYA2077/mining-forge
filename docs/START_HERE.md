@@ -1,0 +1,51 @@
+# 作業の入口
+
+更新日：2026-09-06
+
+## このWindowsで指定する場所
+
+Codexに渡す「作業領域」はファイルではなく、次の**フォルダ**です。
+
+```text
+C:\Users\kouha\Documents\ChatGPT\採掘系のゲーム作成？
+```
+
+最初に読む案内ファイル：
+
+```text
+C:\Users\kouha\Documents\ChatGPT\採掘系のゲーム作成？\docs\START_HERE.md
+```
+
+ルートの `AGENTS.md` がエージェント向けの作業規則です。`MASTER.md` などが名前だけで自動的に読まれることを前提にせず、AGENTS.mdと依頼プロンプトで読み順を指定しています。
+
+## 別の端末で作業するとき
+
+GitHubのこのリポジトリを任意の場所へcloneし、**clone先のルートフォルダ**をCodexに指定します。このWindowsの絶対パスをMacなどにコピーする必要はありません。文書内リンクと作業規則はリポジトリ基準の相対パスを使います。
+
+将来Unityで開く場所は `<clone先>/game/` です。現在はUnityプロジェクトが存在しないため、Unity Hubへ登録する段階ではありません。
+
+## 読み順と次の依頼
+
+1. `AGENTS.md`
+2. `docs/MASTER.md`：決定と未決事項
+3. `docs/STATUS.md`：完了済み・未着手
+4. `docs/handoff/CURRENT.md`：次の一件と引き継ぎ
+5. 試作を依頼する場合だけ `docs/PROTOTYPE_0.md` と `docs/handoff/IMPLEMENTATION_PROMPT.md`
+
+今回は調査・コンセプト整理・GitHubの設計基盤までが依頼範囲です。実装用プロンプトは次回依頼するための準備です。
+
+## 文書の使い分け
+
+| 文書 | 答えること |
+| --- | --- |
+| MASTER | 今、どんなゲームを作る方針か |
+| GAME_DESIGN | 採取と3種類の報酬がどうつながるか |
+| DEV_NOTES | 広げるならどんな案があるか、何を試すか |
+| PROTOTYPE_0 | 最初の実装の具体的な範囲と判定条件 |
+| ROADMAP | 完成まで何をどの順に積み上げるか |
+| DECISIONS | なぜ決めたか、いつ再検討するか |
+| STATUS / handoff/CURRENT | どこまでできていて、次に何をするか |
+| sessions | その作業で変えたこと・根拠・検証・残件 |
+| GitHub Issues / PR | 個別の作業単位、関連する差分と確認 |
+
+運用の詳細は [WORKFLOW](WORKFLOW.md)。履歴は残しつつ、次の担当が読む現在地は短く保ちます。
