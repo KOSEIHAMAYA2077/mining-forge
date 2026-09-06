@@ -1,0 +1,678 @@
+[
+  {
+    "File": "MiningForge.exe",
+    "SHA256": "5CF8283E7CB3761B6FCBBA8E2C9F36A298A75883CC65CA7719B008F3A7AA231E"
+  },
+  {
+    "File": "SOURCE.txt",
+    "SHA256": "395D962E6193F27BCCD43CB4B1F290216EF68C20BCCF43E5B28E69EA4448C2B8"
+  },
+  {
+    "File": "UnityCrashHandler64.exe",
+    "SHA256": "D688F97ADE767ABA911CBF5B564130D122705F97159C3810C925A36613440D6D"
+  },
+  {
+    "File": "UnityPlayer.dll",
+    "SHA256": "FC749FC75AAF743CF5F666A849A4BB06BCF8F4BF188E1230451F2AC399C8C500"
+  },
+  {
+    "File": "D3D12\\D3D12Core.dll",
+    "SHA256": "625BD40005B1C3708695D5256ECF230D278E6B8EDBA5A88AF70F3D91324F3052"
+  },
+  {
+    "File": "Mining Forge P0a-03_BurstDebugInformation_DoNotShip\\Data\\Plugins\\x86_64\\lib_burst_generated.txt",
+    "SHA256": "B53134C1B6227FFEEF9FD347D8687D0DD2941E16442BBDAC118C00191B5FA2FE"
+  },
+  {
+    "File": "MiningForge_Data\\app.info",
+    "SHA256": "CC42574E333A7C1AD7D74A732068DC63657A128DC24819FCB4A6C30DABB73257"
+  },
+  {
+    "File": "MiningForge_Data\\boot.config",
+    "SHA256": "0665A793DA80CBB5A513074668016DC58387DBEF2E9DCFF5F443C55C9804B4E9"
+  },
+  {
+    "File": "MiningForge_Data\\globalgamemanagers",
+    "SHA256": "BA86E4C8FCF64E896BF5F55EBAD055C6FC0DAD0344578B11C36FBE8E00188560"
+  },
+  {
+    "File": "MiningForge_Data\\globalgamemanagers.assets",
+    "SHA256": "D3F54AF3BF33CA895B451E5F97CECB47ABF8D5FE7EF5E5513254FDC5575A9E38"
+  },
+  {
+    "File": "MiningForge_Data\\globalgamemanagers.assets.resS",
+    "SHA256": "FA17CBFFCBA886C81D7E30FBB839BCB97932CEDB8B38686AB06CC2C1E8CB4C99"
+  },
+  {
+    "File": "MiningForge_Data\\level0",
+    "SHA256": "D3DCA2645BE9CCFEF0DB76A8DC24E1BCE24C79B50E47C682DAC0F0BCAFC728C7"
+  },
+  {
+    "File": "MiningForge_Data\\resources.assets",
+    "SHA256": "931C9A2B496A1EE29052265CCD13D22888C1FA4C95924AC91EDC4C23B7E19BF0"
+  },
+  {
+    "File": "MiningForge_Data\\resources.assets.resS",
+    "SHA256": "DF604697640C879BCA6E53D7E0E2F470026157CCD280177341C3669B2A6FC6F8"
+  },
+  {
+    "File": "MiningForge_Data\\resources.resource",
+    "SHA256": "B6A70DCDA5367D38B07A349EE3C49B28BB3B4ABA8B5CC0934044D5B813DFB01A"
+  },
+  {
+    "File": "MiningForge_Data\\RuntimeInitializeOnLoads.json",
+    "SHA256": "D01C5B230F75F093223D38857313B3D1B1148C338D50748499283CAE2AA4B40C"
+  },
+  {
+    "File": "MiningForge_Data\\ScriptingAssemblies.json",
+    "SHA256": "5C5502C6FFA77A4A14A726312E96597D43EFA4400BF0E821B200AC1D78E05D7B"
+  },
+  {
+    "File": "MiningForge_Data\\sharedassets0.assets",
+    "SHA256": "B515C3A0ED7060AA3BBBF22291A462985F3C947AE326D09F5D728BD9BDFD0396"
+  },
+  {
+    "File": "MiningForge_Data\\sharedassets0.assets.resS",
+    "SHA256": "393EFE6399536384AA91BDFC4E64F244B4D3E1FBB6A4FF145C483FFEE64CCB36"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Assembly-CSharp.dll",
+    "SHA256": "6FCBC086B1AD069FAC26EA33F719E58DC7D32C9AB5079A448745577477AFC8B1"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Mono.Security.dll",
+    "SHA256": "618009319DBF3AE374F9B5DC0D0522E1E1BDD172200C120A5471747B7991A584"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\mscorlib.dll",
+    "SHA256": "6C76E06E6D44CF0F39BF59E6A90770968B70093AD4C1572DFBC5E46E431C5FBF"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\netstandard.dll",
+    "SHA256": "6AE62E082DC494A2433984177F60CA4DB5FAE69B1F360A8B33754172B310B8C5"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.ComponentModel.Composition.dll",
+    "SHA256": "0C3E81771A5FE9657BEA02887996DE72606C3CB247E4FBE413F743F40E2AF244"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Configuration.dll",
+    "SHA256": "04907729E87A101E62D3A5C93CFA16688BEE745D05440D6DAA0C541964BE27AB"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Core.dll",
+    "SHA256": "A5E7D47313DA0ECA0B92A901A30498F5E970916FAF63B70B74DD62B09760ED72"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Data.DataSetExtensions.dll",
+    "SHA256": "498F14C37D83F946A47A79E01DE777E62F269EE9C3820F2026B59AB1C1B9222F"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Data.dll",
+    "SHA256": "427478545CE66B632414CA838088EA073F250ED16B21C70005F48CB571350E47"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.dll",
+    "SHA256": "7019D6B6DBFA07CF30F62E7D3CCB969F70CBF001FD72112938FFB535C7F75D81"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Drawing.dll",
+    "SHA256": "E182E688223ACEDB8135227E8FBFF17D5ED22F47F81141AA9CB96EF1AB9926FC"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.EnterpriseServices.dll",
+    "SHA256": "84AF394AD863E31407EB2B9555CA7E96A9F1966630F5D7F0EEC54F0011F6BABC"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.IO.Compression.dll",
+    "SHA256": "80421A67B4162A5F1B4AAD6A8327C6D1FB4B04DEDD39DAE14A770B812594FAE2"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.IO.Compression.FileSystem.dll",
+    "SHA256": "2730D2A27F9362259A406EA14727E5F0A71BC21A6825BE94F8623A84BD9F9C79"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.IO.Hashing.dll",
+    "SHA256": "AC7AC3E83805B0B621C48B90543DC733C9A89106835278618357D6187E3DA74E"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Memory.dll",
+    "SHA256": "C4F030A2CBA7DA7CDCF493257C24560E203D355904AEE490D645A935842F834A"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Net.Http.dll",
+    "SHA256": "3CD3AC19050D5031C13644CD87958AD8029B79CE16C7747FAF3D0542E7FB45A3"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Numerics.dll",
+    "SHA256": "AC9224B32355A09F09B706CAB568384F64CF8116825C5911CEF1E13221C61C38"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Runtime.CompilerServices.Unsafe.dll",
+    "SHA256": "01748200F2400C742AA689F1F5101BD6298EFDFD92C00C18F4FA473847235BA9"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Runtime.dll",
+    "SHA256": "E0A7334B7BA419AAAB6BD3BB6992D693E689341A9178172C9BF99C2AA6A085BD"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Runtime.Serialization.dll",
+    "SHA256": "1152EF687DBE39E0CCB6B9A68F6501004415A729072DF29ABAB3BC7C66840217"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Security.dll",
+    "SHA256": "2101A4DD4475285F96B1AC3BA1715A52AA8067690709E675CC49A9EB8ED901A4"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.ServiceModel.Internals.dll",
+    "SHA256": "888EC94A59C127854871B76AFA49FDCEFDF723C0F0B6FD78E87F73A8495B63B5"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Transactions.dll",
+    "SHA256": "F65DBC257D26A361DCC01EDD58BF3E542D186C8EE492A4F7A62B0DD7D59F7050"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Xml.dll",
+    "SHA256": "79194220ADFCF027A334C87B1ADCC6D07B9660A4061E04B3D9500C10D30F7D49"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\System.Xml.Linq.dll",
+    "SHA256": "4F5D6BF313CBF091E7BFF83D07DD03ED93D0ECB3DDB025AE786AADD6B5F477FB"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.Burst.dll",
+    "SHA256": "C9CDE102EDD4E8E04BD697AE5B981509C204FD7210A803FF30A84FEA387EAD38"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.Burst.Unsafe.dll",
+    "SHA256": "9D9C1FF52411DECBEE5D9F0D1CD61EBEAA222077AA77A52101EA3DEBAFAE98E2"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.Collections.dll",
+    "SHA256": "EB88902DE1EC7C0F66E47180E90BAF56DB00D228AA1E6099194B0AA715F85E6E"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.Collections.LowLevel.ILSupport.dll",
+    "SHA256": "FF50383F807F9692E4913B97E47D86FEFCB8FAA33D6D48CD3E3FD6FC7FFB448D"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.InternalAPIEngineBridge.004.dll",
+    "SHA256": "8E0B7030ED1170F6F59EE7DBA1ED80B888CEBA656EEA7BBA773D1270D470DB66"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.Mathematics.dll",
+    "SHA256": "F390EFCC9A0D6CB9E4E785683CE9789D066002BF2B3DE579E38EDA9E095698D7"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+    "SHA256": "D77136D958787376297E496E90ADF53AB24DAE4C591769EA1E4E19CEDA0A7F67"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "SHA256": "D4AC4F3D25890F3CB8F5E8668B40D46B9A4388A4A9DA9572C911A8B1D2817792"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.Shared.dll",
+    "SHA256": "F4CBD9475810C7580083D50F5097ED9978E2DD8F40A42EA5F8738147383B981E"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.RenderPipelines.Core.ShaderLibrary.dll",
+    "SHA256": "13FE8C6A0BBA13FD5FD602895C7CEDFAF9243426004D5E2DB6EC1F8157DF08A1"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.RenderPipelines.GPUDriven.Runtime.dll",
+    "SHA256": "83C6B65FB1A06A761C6C83D7B5A7140B90BA0BEF1F8C730EBE4DB3EF51F61BBE"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+    "SHA256": "0E168AD259F1453F67B59730B5628B18BFE1ECFF939D95999EAE43C5003CCE28"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.RenderPipelines.Universal.2D.Runtime.dll",
+    "SHA256": "6F69595B7396844BE505EE5AC4C0DD1F1C8FB25F498EB4E3B9214B86B6CC8232"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.RenderPipelines.Universal.Config.Runtime.dll",
+    "SHA256": "CB1DF8F9168D145AC0BBADCA30E69E91C69DC8CDC08010AFF1DC11EB2AEFC789"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll",
+    "SHA256": "0864C28DB14FFA3CA8D6B8F152F786DC30348B26C62F57C349314DCCBF69ED0B"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.RenderPipelines.Universal.Shaders.dll",
+    "SHA256": "E69620F37FD8BC15A4FC4E16C2294E89C334BEB097CE012B38BE667BA7C56532"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.TextMeshPro.dll",
+    "SHA256": "F0C59FDA7C9F1FD67381F246B7533AA4D0D60603D3F106FF074FD30C25386003"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\Unity.UnifiedRayTracing.Runtime.dll",
+    "SHA256": "A1A73ACB3F18A22EAC21A70AB27D31CBDAC5D01ECD9388FE66EE619DA5468D27"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.AccessibilityModule.dll",
+    "SHA256": "D62E922D5B7D051B33D81B89D0D84F6DDB2464D32721334014E95418D02039A5"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.AdaptivePerformanceModule.dll",
+    "SHA256": "793BE45960D551FDDC6486B6B29012EFFEF06FB87E484ABDDB452B9A24AF4558"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.AIModule.dll",
+    "SHA256": "49D0F1894FE4FCF1FFB40003615C0993F04FA0F0404CC198A100B72D66388480"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.AMDModule.dll",
+    "SHA256": "C19EA5DBFCBB550B6F38ED57165FF163842BAC7E00E64B630D5CB8C46BD43177"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.AndroidJNIModule.dll",
+    "SHA256": "238D8C84896572DD4981A9FA411BDC565F34001D1E4DD41078AEE58FECB05D0E"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.AnimationModule.dll",
+    "SHA256": "999F9EA931EE7E3AA265D5C5EF3E178DBD4556C7094DBA73EAB33F18E3018B05"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.ARModule.dll",
+    "SHA256": "64547C0611E2BFA91D23EB0C15F1B95AF4B9AD786002060FD658FE303EB2CCFD"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+    "SHA256": "16232A83842470224E0B3410406B82D96575E83FC4D4DD2F680EFBC8352C7EC4"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "SHA256": "D64FA938F8F933C05F8E44B8B921D5DDBC7596E48E62D12E74ED3527B324FB88"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.ClothModule.dll",
+    "SHA256": "99DE17815D27D6AF07C0EFB720017C1CE7BA05E0DD10603EF59C4241C8410492"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.ClusterInputModule.dll",
+    "SHA256": "0DDC48B93C6D56772C0A9CD2BD621D0D3152B29D9D003B188C231F98BAC15345"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.ClusterRendererModule.dll",
+    "SHA256": "41B49BBE0A9D2A723C45F43DBC922A7BCFDCE8CAFCF16157E872AEFEED1AC419"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.ContentLoadModule.dll",
+    "SHA256": "25D691D27C0E20DB482FA063CC93F12907FFDC061338BE47A9C69EBB3A821119"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "SHA256": "44AD4405922A9C1EBB7AF84C4B2D072A7728ECD26A4CD958B10DE87D81F8746F"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.CrashReportingModule.dll",
+    "SHA256": "D2256086B0A28D701DCC40FD859418D40389FF42DC0F299DB370490B5AFFC043"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.DirectorModule.dll",
+    "SHA256": "473876C887532447EAF80DF3826B83CB93362D890529E6599F150D98F9B27F03"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.dll",
+    "SHA256": "083F6E7F2D65D2ABB4BC2F2C99CCDC80FD2633DA28271FD2E86C30B0E60858C3"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.DSPGraphModule.dll",
+    "SHA256": "89AE29953E15BC1D64BE11F0665CB41D46AAA58386327786A5DBDC84EEA969BA"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.GameCenterModule.dll",
+    "SHA256": "9A84A3B37D12B8AB5B2461D9DB2911D991C0B831C21EB4F42E84D80DB3512D83"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.GIModule.dll",
+    "SHA256": "4E7BC5D4932119FC3CF14428A4E4CD535C3AC2F3BC670C3794FCCABBCAD97276"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+    "SHA256": "2CF9B36B6718514FF0A02B2C47F6C530D6E655CC9B27539EABBA5EB4753167C2"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.GridModule.dll",
+    "SHA256": "5030F460C9DCA48882ADD8177CE8DD6C0D6448CD67D96399DFB45064B3EF02E3"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.HierarchyCoreModule.dll",
+    "SHA256": "59AC14DE91657D66471A162F2CA96BA1B519A22504D419C57BB5A56E40545EEC"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.HierarchyModule.dll",
+    "SHA256": "AA51CD8A605C26FFA130B1C04ABFE88389E1C1F38551A3D3166913EED18A96AE"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.HotReloadModule.dll",
+    "SHA256": "B9F0F89B37BCCA1604124046C2BFE427CBF8F5906D1DE63B5F5C68918B732D52"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.IdentifiersModule.dll",
+    "SHA256": "B11CE30EFA0152F7D98CBB38938B52379282E4D760A1623AB6D12C1B70307589"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.ImageConversionModule.dll",
+    "SHA256": "76B3391B0466E30BC0DD3ED6F7995C490278BE5C0F54538807B0B42AD35072ED"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "SHA256": "33C601D580388B2B3559DC21C0968F244B24189CF6898664C76A5108FE73FC94"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.InputForUIModule.dll",
+    "SHA256": "8E5B2B33311EED8D707ADF50F3488E563363439D33D9FBCB00A1EDF6D84D9561"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "SHA256": "203997C5658BB90CEA0F8502266E64C4F5B794793BF26C7786912A4646CE402E"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.InputModule.dll",
+    "SHA256": "4DD3027B506A48C586582CE8F85ECD314931B7F4CD8353088A567A6536890F78"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.InsightsModule.dll",
+    "SHA256": "CBEA035630DEC39B3B98D49BD8D68349C9D79641EC9C4F6444D62429DEB12F7D"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "SHA256": "28E041C445B0389B4A8C1007D0E819CE1F3F99F16FC8FA984EF892E73263D830"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.LocalizationModule.dll",
+    "SHA256": "B54C43FD74021183BB52247509DF24142BC14AE00F1965E0B7B4A76D85BC7B73"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.MarshallingModule.dll",
+    "SHA256": "E14D90D62314875E9AA7B472D2945DE667770C6B746474A7F8A25CA18F46691F"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.MultiplayerModule.dll",
+    "SHA256": "53161A4FC480E18F7B84DC53A82C1A48D0F6189269302123486EDB32D45C5D8F"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.NVIDIAModule.dll",
+    "SHA256": "6B61EDA2A78A8E6295DCE2369E8E45FE51EB0D38DAE9051C0B707225E222684D"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.ParticleSystemModule.dll",
+    "SHA256": "67BA9796C6E74FD2842E7BFC118CF48EC5A26057BBAD35F21CF443C15E442FC0"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.PerformanceReportingModule.dll",
+    "SHA256": "303A2D3530183CF5AA493153F3D28E27621628C2FAEE2286FEFE5B6F6064ADF0"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "SHA256": "D6F54014C09C73F81D370DAC0700ED455BDF357CED11C34C63177703665280F2"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.PhysicsBackendPhysXModule.dll",
+    "SHA256": "4D2D44CD494D64D18F8B5F29CEF09E7052DBC474DAC49A41F6ED9E48751B8F48"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "SHA256": "E765E23E13E4E50FEFA901888609007A512691532F008C60E2088ED68D401A5C"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.PropertiesModule.dll",
+    "SHA256": "8FB6124EF94984B2CBB1F586215FDE859E327268A1D93488A8B979313F7C2D20"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.RenderAs2DModule.dll",
+    "SHA256": "26637A2D702D1AD71B167468D6BB057D94CB4E86C4FD3AD59ACEA22954D03BB5"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+    "SHA256": "55F7C052D89E6B699F3DBD50506A823B48A359AAB893A1EA45CEF251B19FC634"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.ScreenCaptureModule.dll",
+    "SHA256": "7C8E56413965E46959E6A52543A92127A37D2F386E1496E9F6ACDE04AA2ABB7F"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.ShaderRuntimeModule.dll",
+    "SHA256": "978207463FDA54BE38898823EE0E08979643DBD217BAE667CD75118BCBA32A4E"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.ShaderVariantAnalyticsModule.dll",
+    "SHA256": "FBB9DD6D176596A0F99033C0EE50FB62480D4010BC59965EEE0719FC2A94D2CD"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "SHA256": "81C1C46FD787CC3495AE8B2CF18ADBF7EA32B6BE38550B7BECFB96868ACC000C"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.SpriteMaskModule.dll",
+    "SHA256": "F7561F3D8DA2EC79330E3E783BC480C29605155DE0FDB01E88FB5603BFF183AD"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.SpriteShapeModule.dll",
+    "SHA256": "1169D3145E64F5D1FBE019C458F6AF37BF4C22B613F64201C9B005BFD070BD16"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.StreamingModule.dll",
+    "SHA256": "ECA58EE2D2E152BEFE45156684A56B108BC75EB199CDE2100B0E87CDC9C744EF"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.SubstanceModule.dll",
+    "SHA256": "51C597C58C2E9AE8E98EEB0172192D6E247028E2C218A7005298A84D06E2A87F"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.SubsystemsModule.dll",
+    "SHA256": "3ADCBB50962EFB23A7817C526D281B0293CF8299D8022AE6467C473C23EECFC6"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.TerrainModule.dll",
+    "SHA256": "434727D37567D76B6580F0D88C8ECAAD388DF8600E7D9FA87ED37C81813C9A23"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll",
+    "SHA256": "BD068557716BBF4C805DE48DC1C279489BAC07F2C9702F6BC5E135EDACB487D3"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll",
+    "SHA256": "572416288962AB8B76D582FE41A5F0C311F2AE6902C225F168520D5EE5CF6FE7"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll",
+    "SHA256": "9909EE403C78D20A708E356257D9E5B93BAE6F76CC2DF25C87EF9F6D96F9660F"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "SHA256": "D9D9F102FBCAB704BE10439245F313386CACD528A73CAFC7C34EC55EE6DF3D01"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.TilemapModule.dll",
+    "SHA256": "95C25868EAAE1653C6D99EF6BE3D5E81130050BB1F1655357D0E7BEC096047F0"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.TLSModule.dll",
+    "SHA256": "D166D751211BFA4FBB5812ED1F0732B365506ABC05BB10D3CAA6B89599B05A0E"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UI.dll",
+    "SHA256": "020875138BA62DC522FB1E8A8DB09DE83CD551AFCA5E517E0C4BA32E8DCD8344"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+    "SHA256": "790C23452AA4EF13075BA11C8D72C56AC6EA7A2E1425E91147A2DD592845F48A"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UIModule.dll",
+    "SHA256": "A6A751B073EA7A80D18FE7A845952D60A39117E330510AE7B74699A80FA8218F"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UmbraModule.dll",
+    "SHA256": "3321C0C45E37DC13DEBC911C9728E8C4513C2C0573FCC2D074EC8122BA8FB912"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UnityAnalyticsCommonModule.dll",
+    "SHA256": "644E2741653A8044904C64686FEC8B5C4F7200F7CFE1454C14ED41C75DE9A478"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll",
+    "SHA256": "114826F622B1A4D2F3B20BC9582FB111BE9AFD5166D6486E80863F2BD8F1A8B2"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UnityConnectModule.dll",
+    "SHA256": "D3797471832EAEB70B1FE24ECBB56B9B042EF80B043C426925CBAEB7DDADC04D"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UnityConsentModule.dll",
+    "SHA256": "7B280BC3715AD2EEAF149D7F87535FC55A33A28D40B6C4203CAAEDE030F24DD9"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UnityCurlModule.dll",
+    "SHA256": "AABD312446F377C982C6CCBB41546D38BD6DCB54C81B6A4C3FCABA1EBA3A5A49"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll",
+    "SHA256": "C0D434EA2B0F8BFB1E82455C45F29432B55ECCE063FB136052DAFD78596DD831"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll",
+    "SHA256": "84BA3F64FC8DB44225ED4AF8124E18FED43E71A888A4284BA33AD1104C5CEE78"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "SHA256": "BB88D8E94EC21D5E2A4C00DDF1C6C3775DBD01B19DE62ABB2B0D195E6E48D070"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll",
+    "SHA256": "3467C35ED5DCCD053A2F266644092D186E8037ED6A8C1BA70A18EAC743C43468"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll",
+    "SHA256": "05324C221862361470FBFC9228E4704AED1BA0BAB1440268D8F754E7A731007E"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.VectorGraphicsModule.dll",
+    "SHA256": "FE430F42DEF617558737E7E1A848EC707C7C77DF6824241BA6B0485B349BB2E7"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.VehiclesModule.dll",
+    "SHA256": "5D754C08157C5CA5CFAB3C6F8EDEA56745A3DE716F6AE4A218BE3EA120710893"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.VFXModule.dll",
+    "SHA256": "2ACF0948AF3FCD97FEE564A4871E0731010362742DE3D508E045C8C47E059D49"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.VideoModule.dll",
+    "SHA256": "9CDB4A5FEEA82397EC5C9BA62C35D3EA37067021F469F48563F114829A7ECC3E"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.VirtualTexturingModule.dll",
+    "SHA256": "697A08853F9808771BED824BE131250D2E5403E97C93E25DAD9458D8A6FAFB64"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.VRModule.dll",
+    "SHA256": "02EC4C358A92F53B19573386D178A530F559CA27612C96A931F1909BB976DCB3"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.WindModule.dll",
+    "SHA256": "1D181559046CD10CF9B38A3303A068EF813ADC00EA21A091D118B18463C6ED92"
+  },
+  {
+    "File": "MiningForge_Data\\Managed\\UnityEngine.XRModule.dll",
+    "SHA256": "32210E4B2E4A52C75250B8960D6A73DEBD8425A17C2254492EF86CCE512E5635"
+  },
+  {
+    "File": "MiningForge_Data\\Plugins\\x86_64\\lib_burst_generated.dll",
+    "SHA256": "C294B0C4A74D54B3629E5F1D28A6C182A187E5070C7AFD55AF05D28B9A6C2480"
+  },
+  {
+    "File": "MiningForge_Data\\Resources\\unity default resources",
+    "SHA256": "FB2492CD1AD7C38DDA8A4CE5F1A1FB57EDCFF44E3AE250B263E44BEAE3660EC4"
+  },
+  {
+    "File": "MiningForge_Data\\Resources\\unity_builtin_extra",
+    "SHA256": "1753E094BB7AF472564DA8F6A2F1D1FD93A1EAE18ED0DA05D947D564D40A7662"
+  },
+  {
+    "File": "MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll",
+    "SHA256": "4EA64AA2C09BE86DB7341E5C9001E1266B1CF765A3CECA4D798EFB7B4DCAEC1A"
+  },
+  {
+    "File": "MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll",
+    "SHA256": "1765A12F381AA37C110C12F45F5013A6B6DA73CC1268A37E9117FA6DA3102B7F"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\browscap.ini",
+    "SHA256": "4DDD50F31FB968F30BEDEFC253A46DC3F2890192D05CDAA9E0A64A056EEE807E"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\config",
+    "SHA256": "5776169973A26A387B8B3E5C0F2301A7AB9A6DD7C7D3EFA22A96ABC47FBF8662"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\2.0\\DefaultWsdlHelpGenerator.aspx",
+    "SHA256": "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\2.0\\machine.config",
+    "SHA256": "E91782A27FA39FC6C1D6EE8B08529F5D35052310D0006034B878EB04B8F2AF30"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\2.0\\settings.map",
+    "SHA256": "49C6160F9D54AF4270A3B4E997FC4A8301F79B9E2070118FA46DDBCBBC44F9A2"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\2.0\\web.config",
+    "SHA256": "CF2B54339E069B9E42F7D6795EECBF562C50C1011F4CA8F65F578FE52D97FF92"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\2.0\\Browsers\\Compat.browser",
+    "SHA256": "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\4.0\\DefaultWsdlHelpGenerator.aspx",
+    "SHA256": "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\4.0\\machine.config",
+    "SHA256": "E60AEC2C5115D65B3ACB3C55EA21576DBD770F579166C017125571E46AE560ED"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\4.0\\settings.map",
+    "SHA256": "CE1DB1AD8A9512073164E3ECCDC193F7EDA036E1A9733CAEC4635DE21B2865C8"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\4.0\\web.config",
+    "SHA256": "E38BB8CC68FE5B4EDECDFD288D094B9E8CED7629039B2A347682ABA0D8BD7492"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\4.0\\Browsers\\Compat.browser",
+    "SHA256": "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\4.5\\DefaultWsdlHelpGenerator.aspx",
+    "SHA256": "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\4.5\\machine.config",
+    "SHA256": "EE950004B576FB28DC85F4B0435ED04BF96612DE2E8B53BE84D07AFE85A0DE6C"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\4.5\\settings.map",
+    "SHA256": "CE1DB1AD8A9512073164E3ECCDC193F7EDA036E1A9733CAEC4635DE21B2865C8"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\4.5\\web.config",
+    "SHA256": "C4CBDDD4FD9347B58CC5A72B36DC4BA1AD2BB699E65869D05CD3FB9865F0D824"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\4.5\\Browsers\\Compat.browser",
+    "SHA256": "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741"
+  },
+  {
+    "File": "MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml",
+    "SHA256": "0C56E34C69124510FA8C19E7B4C2CA6C1C4FF460AE19F798DD0CA035809E396D"
+  }
+]

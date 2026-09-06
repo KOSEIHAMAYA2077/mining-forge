@@ -1,0 +1,5 @@
+FORGE_SMOKE_OK checks=28
+UI method-driven test, not OS-input test.
+Forced charge chance in smoke only.
+Audio peak=0.4280438; subjective audio not reviewed.
+No claim of exact original mechanics calibration.
