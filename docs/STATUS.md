@@ -19,3 +19,10 @@ P0a-03の盤面・ルールに、Blenderで制作した6形状の原石描画、
 [保存版ガイド](../ARCHIVE_README.md)。ZIPにはソース、Blender原本、5つの実行版、Git bundle、全収録ファイルのSHA256を含める。元フォルダは保持。ZIP自体を [GitHub Release](https://github.com/KOSEIHAMAYA2077/mining-forge/releases/tag/archive-dq11-prototype-2026-09-07) に添付する。
 
 次案は [3D採取→磨く・取り出す→販売の検討](research/2026-09-07-extraction-cleaning-simulator.md)。まだ実装指示ではない。旧CR-003の完全再現作業も、追加指示があるまで再開しない。
+
+
+## GitHubへの保存完了
+
+[Release・ZIP](https://github.com/KOSEIHAMAYA2077/mining-forge/releases/tag/archive-dq11-prototype-2026-09-07) にアップロード済み。ZIPは374,631,134 bytes、1,209項目。全収録ファイルを読み戻してサイズ・SHA256・CRCを確認し、GitHub側のSHA256とも一致した。
+
+ZIP対象コミット：`f3b76d7cdc57858bf89949b60ad56621316243e3`。実行版ソース：`d22929a3418603d4b874b92e0c5b79b30ddf1a66`。保存作業の [Draft PR #8](https://github.com/KOSEIHAMAYA2077/mining-forge/pull/8) はmain未統合。リポジトリ紹介文・README・Releaseに棚上げの経緯を反映した。アップロード確認の記録は `docs/archives/2026-09-07-receipt.json`。この確認記録のコミットはZIP作成後のため、ZIP本体には含まない。

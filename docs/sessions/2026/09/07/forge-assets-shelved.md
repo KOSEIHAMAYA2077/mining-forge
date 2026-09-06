@@ -7,3 +7,10 @@
 最新の依頼は、現在のものをZIPへまとめ、その後GitHubにもアップロードすること。元の鍛冶システムが完成されていて独自の追加要素を見つけられなかった、という振り返りを紹介文にも残す。旧試作の修正はここで停止する。
 
 保存対象はソース、原本、設定、ライセンス、実行版、Git履歴、検証記録。ZIPはRelease添付とし、mainへ機能統合しない。次案は採取・クリーニング・販売を分ける3Dシミュレーター方向の検討であり、今回実装しない。
+
+
+## GitHubへの保存完了
+
+[Release・ZIP](https://github.com/KOSEIHAMAYA2077/mining-forge/releases/tag/archive-dq11-prototype-2026-09-07) にアップロード済み。ZIPは374,631,134 bytes、1,209項目。全収録ファイルを読み戻してサイズ・SHA256・CRCを確認し、GitHub側のSHA256とも一致した。
+
+ZIP対象コミット：`f3b76d7cdc57858bf89949b60ad56621316243e3`。実行版ソース：`d22929a3418603d4b874b92e0c5b79b30ddf1a66`。保存作業の [Draft PR #8](https://github.com/KOSEIHAMAYA2077/mining-forge/pull/8) はmain未統合。リポジトリ紹介文・README・Releaseに棚上げの経緯を反映した。アップロード確認の記録は `docs/archives/2026-09-07-receipt.json`。この確認記録のコミットはZIP作成後のため、ZIP本体には含まない。
