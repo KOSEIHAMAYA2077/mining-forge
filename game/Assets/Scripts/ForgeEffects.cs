@@ -28,12 +28,16 @@ namespace MiningForge
             foreach(var hit in action.Hits)
             {
                 var cell=Session.Recipe.Cells[hit.Cell];float x=CellX+cell.Column*CellW+CellW/2,y=CellY+cell.Row*CellH+CellH/2;
+                if(prototypeAssets)yield return ArtPickSwing(x,y,hit.Cell);
+                else {
                 var pivot=Rect(root,"Hammer swing",x,y,1,1);
                 Box(pivot,"Handle",-5,-104,10,113,new Color(.52f,.29f,.12f));Box(pivot,"Handle highlight",-4,-104,2,113,gold);
                 Box(pivot,"Hammer steel",-30,-121,60,33,new Color(.52f,.58f,.62f));Box(pivot,"Hammer face",-30,-121,60,5,paper);
                 float t=0;while(t<.13f){t+=Time.deltaTime;pivot.localRotation=Quaternion.Euler(0,0,Mathf.Lerp(-50,10,t/.13f));yield return null;}
                 audioSource.pitch=used==Technique.Gentle?1.25f:used==Technique.Triple||used==Technique.SuperQuad?.8f:1;audioSource.PlayOneShot(strike);
                 Destroy(pivot.gameObject);
+                }
+                if(prototypeAssets){audioSource.pitch=used==Technique.Gentle?1.25f:used==Technique.Triple||used==Technique.SuperQuad?.8f:1;audioSource.PlayOneShot(strike);ArtDebris(x,y,hit.Critical?12:5);}
                 for(int n=0;n<(hit.Critical?18:9);n++)
                 {
                     var p=Box(root,"Spark",x,y,12,12,hit.Critical?paper:gold);p.sprite=spark;

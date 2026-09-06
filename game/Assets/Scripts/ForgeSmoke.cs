@@ -19,7 +19,7 @@ namespace MiningForge
         }
         IEnumerator Smoke()
         {
-            smokeFolder=Path.GetFullPath(Path.Combine(Application.dataPath,"../../../artifacts/P0a-03"));Directory.CreateDirectory(smokeFolder);
+            smokeFolder=Path.GetFullPath(Path.Combine(Application.dataPath,prototypeAssets?"../../../artifacts/ForgeAssets":"../../../artifacts/P0a-03"));Directory.CreateDirectory(smokeFolder);
             Application.logMessageReceived+=(message,stack,type)=>{if(type==LogType.Exception){File.WriteAllText(Path.Combine(smokeFolder,"FAILED.txt"),message+"\n"+stack);Application.Quit(2);}};
             Screen.SetResolution(1281,720,false);yield return new WaitForSeconds(.4f);Screen.SetResolution(1280,720,false);yield return new WaitForSeconds(.5f);
             yield return Capture("01-preparation");
@@ -39,11 +39,15 @@ namespace MiningForge
             Choose(Technique.Gentle);row=column=0;Confirm();while(busy)yield return null;Check(Session.Activity==800&&Session.PowerEffect==2,"power event at800");
             yield return Capture("09-material-effect");
             int focus=Session.Focus,activity=Session.Activity;Show(View.Details);Check(Session.Focus==focus&&Session.Activity==activity,"assessment free");yield return Capture("10-assessment");
-            Show(View.Finish);yield return Capture("11-finish-confirmation");Finish();Check(resultItem!=null&&workshop.Items.Count==1,"finish produces exactly one item");Check(workshop.Finish()==null,"duplicate finish rejected");yield return Capture("12-result");
+            Show(View.Finish);yield return Capture("11-finish-confirmation");Finish();Check(resultItem!=null&&workshop.Items.Count==1,"finish produces exactly one item");Check(workshop.Finish()==null,"duplicate finish rejected");
+            if(prototypeAssets){while(!artWaiting)yield return null;Check(artDrop&&artDrop.raycastTarget&&artHits>0&&artContactError<.01f,"rendered drop, aligned tool and pointer target");yield return Capture("12a-drop");CollectArt();CollectArt();while(busy)yield return null;Check(artCollections==1&&workshop.Items.Count==1,"visual pickup cannot duplicate item");}
+            yield return Capture("12-result");
             Show(View.Inventory);yield return Capture("13-inventory");
             Begin(2,resultItem);Check(Session.Actions==0,"rework begins");Show(View.Finish);Finish();Check(workshop.Items.Count==1,"rework retains same item");
+            if(prototypeAssets){while(!artWaiting)yield return null;CollectArt();while(busy)yield return null;Check(artCollections==2&&workshop.Items.Count==1,"rework pickup retains same inventory item");}
             Screen.SetResolution(1920,1080,false);yield return new WaitForSeconds(.7f);Begin(3);yield return Capture("14-six-cell-1920");
-            Show(View.Finish);Finish();Begin(4);yield return Capture("15-eight-cell-1920");
+            Show(View.Finish);Finish();if(prototypeAssets){while(!artWaiting)yield return null;CollectArt();while(busy)yield return null;}Begin(4);yield return Capture("15-eight-cell-1920");
+            if(prototypeAssets){foreach(string shape in new[]{"ring","blade","shield","axe","robe","cross"})Check(ArtSprite(shape)!=null,"Blender board image "+shape);Check(Resources.Load<GameObject>("MiningPrototype/Prefabs/Pickaxe")!=null&&Resources.Load<GameObject>("MiningPrototype/Prefabs/Board_axe").GetComponent<Collider>()!=null,"FBX prefabs and board collider saved");}
             File.WriteAllText(Path.Combine(smokeFolder,"report.txt"),"FORGE_SMOKE_OK checks="+smokeChecks+"\nUI method-driven test, not OS-input test.\nForced charge chance in smoke only.\nAudio peak="+peak+"; subjective audio not reviewed.\nNo claim of exact original mechanics calibration.\n");
             Debug.Log("FORGE_SMOKE_OK "+smokeChecks);Application.Quit(0);
         }

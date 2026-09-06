@@ -11,6 +11,7 @@ namespace MiningForge
 {
     public partial class ForgeGame : MonoBehaviour
     {
+        public bool prototypeAssets;
         enum View { Setup, Commands, Skills, Target, ConfirmAction, Details, Finish, Result, Inventory, Settings }
         const float CellX=822, CellY=237, CellW=132, CellH=120;
         readonly Color ink=new Color(.023f,.034f,.05f,.94f), paper=new Color(.96f,.93f,.84f), gold=new Color(.94f,.72f,.35f), dim=new Color(.53f,.58f,.60f), cyan=new Color(.3f,.8f,.95f);
@@ -45,6 +46,7 @@ namespace MiningForge
             calibration=JsonUtility.FromJson<ForgeCalibration>(Resources.Load<TextAsset>("ForgeCalibration").text);
             var args=Environment.GetCommandLineArgs(); smoke=Array.IndexOf(args,"--forge-smoke")>=0;debugNumbers=Array.IndexOf(args,"--forge-debug")>=0;
             var cam=new GameObject("Forge camera",typeof(Camera),typeof(AudioListener)).GetComponent<Camera>();cam.clearFlags=CameraClearFlags.SolidColor;cam.backgroundColor=ink;cam.cullingMask=0;
+            if(prototypeAssets)recipeIndex=3;
             MakeAudio();MakeInterface();Show(View.Setup);
             if(smoke)StartCoroutine(Smoke());
         }
@@ -101,6 +103,7 @@ namespace MiningForge
                 case View.Setup:
                     Add("この地金を鍛える",()=>Begin(recipeIndex));
                     Add("鍛冶レベル  "+level,()=>{int[] choices={12,26,38,55,60,99};int i=Array.IndexOf(choices,level);level=choices[(i+1)%choices.Length];Show(View.Setup);});
+                    Add("表示："+(prototypeAssets?"鉱石":"地金"),()=>{prototypeAssets=!prototypeAssets;Show(View.Setup);});
                     Add("うちなおし",()=>Show(View.Inventory),workshop.Items.Count>0);Add("設定",()=>{settingsReturn=View.Setup;Show(View.Settings);});Add("終了",()=>Application.Quit());
                     var setup=Panel(overlay,"Preparation",0,0,1147,526);
                     Label(setup,"地金を選ぶ",27,12,1060,50,28,gold);
@@ -127,7 +130,8 @@ namespace MiningForge
                     Add("次の地金へ",()=>{seed++;Show(View.Setup);});Add("この品をうちなおす",()=>Begin(recipeIndex,resultItem),resultItem!=null&&resultItem.Plus<3&&workshop.Pearls>=resultItem.Recipe.PearlCost);Add("所持品",()=>Show(View.Inventory));Add("終了",()=>Application.Quit());
                     var result=Panel(overlay,"Result",0,0,1147,526);var a=Session.Assess();
                     Label(result,"仕上がり",32,22,1050,54,31,gold);Label(result,a.Label,32,105,1050,80,47,paper);
-                    Label(result,resultItem.Recipe.Name+(resultItem.Plus>0?" ＋"+resultItem.Plus:""),32,220,1050,65,32,gold);
+                    Label(result,resultItem.Recipe.Name+(resultItem.Plus>0?" ＋"+resultItem.Plus:""),prototypeAssets?140:32,220,930,65,32,gold);
+                    if(prototypeAssets)ArtImage(result,"Collected mineral icon","crystal",32,209,90,90);
                     Label(result,"手数 "+Session.Actions+"   ／   残り集中力 "+Session.Focus+"   ／   宝珠 "+workshop.Pearls,32,322,1050,52,23,paper);
                     Label(result,"この試作はアプリ終了で所持品がリセットされます。\n品質係数と一部確率は原作照合中です。",32,410,1050,83,20,dim);break;
                 case View.Inventory:
@@ -146,6 +150,7 @@ namespace MiningForge
         }
         void Begin(int index,ForgedItem item=null)
         {
+            if(busy)return;
             if(!workshop.Begin(ForgeRecipe.Samples[index],level,calibration,seed,item)){feedback.text="素材または宝珠が足りません。";return;}
             recipeIndex=index;row=column=0;technique=Technique.Tap;resultItem=null;
             feedback.text="中心の印を狙って 地金を仕上げよう。";Show(View.Commands);
@@ -162,6 +167,7 @@ namespace MiningForge
         void Finish()
         {
             if(busy)return;resultItem=workshop.Finish();if(resultItem==null)return;
+            if(prototypeAssets){busy=true;StartCoroutine(ReleaseArt());return;}
             audioSource.PlayOneShot(chime);feedback.text="地金が仕上がりました。";Show(View.Result);
         }
         void Details()
@@ -180,7 +186,8 @@ namespace MiningForge
             ((RectTransform)boardRoot).anchoredPosition=Vector2.zero;
             Clear(boardRoot);faces.Clear();bars.Clear();labels.Clear();frames.Clear();
             var texture=Resources.Load<Texture2D>("ForgeArt/hot-metal");
-            var ingotRect=Rect(boardRoot,"Shaped metal",CellX,CellY,CellW*2,CellH*4);ingot=ingotRect.gameObject.AddComponent<ForgeIngotGraphic>();ingot.Shape=Session.Recipe.Id;ingot.raycastTarget=false;
+            if(prototypeAssets)DrawArtBoard();
+            else {var ingotRect=Rect(boardRoot,"Shaped metal",CellX,CellY,CellW*2,CellH*4);ingot=ingotRect.gameObject.AddComponent<ForgeIngotGraphic>();ingot.Shape=Session.Recipe.Id;ingot.raycastTarget=false;}
             for(int i=0;i<Session.Recipe.Cells.Length;i++)
             {
                 int index=i;var cell=Session.Recipe.Cells[i];float x=CellX+cell.Column*CellW,y=CellY+cell.Row*CellH;
@@ -224,6 +231,7 @@ namespace MiningForge
                 labels[i].text=debugNumbers?value+" / "+c.Target:exact?"◆ 中心ぴったり":inBand?"成功ゾーン":value>c.Target+c.Band?"少したたきすぎている":"";
                 labels[i].color=exact?gold:dim;
             }
+            if(prototypeAssets)RefreshArt();
         }
         void Refresh()
         {
@@ -238,6 +246,7 @@ namespace MiningForge
             foreach(var b in buttons)b.interactable=b.interactable&&!busy;
             if((view==View.Target||view==View.ConfirmAction)&&buttons.Count>0)buttons[0].interactable=!busy&&Session.CanUse(technique,row,column)==null;
             RefreshBoard();HighlightMenu();
+            if(prototypeAssets)RefreshArt();
         }
         void HighlightMenu()
         {
