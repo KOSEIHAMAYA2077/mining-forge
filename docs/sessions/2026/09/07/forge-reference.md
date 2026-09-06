@@ -21,3 +21,5 @@
 ## 保存版の確認
 
 ソース a581749 からP0a-03-finalをビルド。gameに未コミット変更なし。同じ正式実行版で28チェック合格、終了コード0。証跡は docs/verification/P0a-03。OS入力・聴感・原作一致の確認とは区別。
+
+GitHub保存：Draft PR #7（base: feat/p0a-crystal）。ソースa581749、検証記録1e6646f。main未統合。

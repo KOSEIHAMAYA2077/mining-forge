@@ -1,6 +1,6 @@
 # 現在の進捗
 
-更新日：2026-09-07。ブランチ：`feat/dq11-system-reference`。現在の試作は **P0a-03「鍛冶の試作」**。PR #6 の `feat/p0a-crystal` から分岐。main未統合。
+更新日：2026-09-07。ブランチ：`feat/dq11-system-reference`。現在の試作は **P0a-03「鍛冶の試作」**。PR #6 の `feat/p0a-crystal` から分岐。[Draft PR #7](https://github.com/KOSEIHAMAYA2077/mining-forge/pull/7)、main未統合。
 
 ## 現在地
 
@@ -19,4 +19,3 @@
 ## 次の一手
 
 原作PS4版の操作記録・版が特定できる資料を基に U01〜U13 を照合。まず打撃値と品質評価、節目の処理順を優先する。採掘への転用、殻剥がし、探索・敵・スキルセットはその後。旧P0a-02とPR #6は比較用に保持。
-
