@@ -2,7 +2,13 @@
 
 更新日：2026-09-06。試作名：**P0a-01**。ブランチ：`feat/p0a-crystal`。対象：[Issue #1](https://github.com/KOSEIHAMAYA2077/mining-forge/issues/1)。
 
-結晶1個の試作を実装し、Windows実行確認済み。正式なコミットからの再ビルドとPR作成を仕上げる段階。最終報告コミットでソースID・PR・確定した起動場所を追記する。
+結晶1個の試作を実装し、コミット済みソースからWindows版を再ビルド・実行確認済み。
+
+- ゲームソース：`ef89cd0b83b8110507d52109ad0be80d366e3011`
+- PR：[#6：P0a-01 結晶1個を加減して採る試遊版](https://github.com/KOSEIHAMAYA2077/mining-forge/pull/6)
+- 正式な起動ファイル：`C:\Users\kouha\Documents\ChatGPT\採掘系のゲーム作成？\builds\P0a-01-final\MiningForge.exe`
+- ビルド出典：同じフォルダの `SOURCE.txt`。この報告はゲームソースの後続の文書コミット。mainへ統合していない。
+- [確認画面・ログ・実行ファイルのハッシュ](../verification/P0a-01/README.md)
 
 ## 現在の実装
 
@@ -10,7 +16,9 @@ Unity 6000.3.18f1 / URP 17.3.0。3部位、4基本技、会心、集中力、分
 
 ## 起動と操作
 
-Unityでは `C:\Users\kouha\Documents\ChatGPT\採掘系のゲーム作成？\game` を開き、`Assets/Scenes/CrystalStudy.unity` をPlay。ビルド起動先は最終報告で確定する。
+上記の正式な実行ファイルを起動する。Unityでは `C:\Users\kouha\Documents\ChatGPT\採掘系のゲーム作成？\game` を開き、`Assets/Scenes/CrystalStudy.unity` をPlay。
+
+途中で起動した `builds/P0a-01` も同じゲーム内容だが、正式な出典記録付きビルドは `P0a-01-final`。他端末へ実行ファイルは自動で届かない。出力フォルダ全体を渡すか、Unityで `scripts/build-windows.ps1 -OutputFolder P0a-01-final` を使って再ビルドする。
 
 部位をクリックまたは1〜3で選択。Q通常、W強打、Eそっと削る、R均等打ち。3部位が分離ラインへ達したら回収。閉じる／Escで中断と再開、放棄は2回確認。結果画面で同じseedか別seedの再試遊。左下で音量と画面揺れを変更。
 

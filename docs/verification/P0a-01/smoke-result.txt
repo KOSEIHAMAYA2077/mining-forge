@@ -1,0 +1,15 @@
+SMOKE PASS: bundled assets loaded
+SMOKE PASS: no unworked reward
+SMOKE PASS: UI repeated strike guarded
+SMOKE PASS: close panel
+SMOKE PASS: reopen retains focus and gauge
+SMOKE PASS: reopen retains random state
+SMOKE PASS: play sequence reaches recoverable crystal
+SMOKE PASS: one collection and result screen
+SMOKE PASS: nonzero audio output from playback
+SMOKE PASS: explicit new sample resets
+SMOKE PASS: fatal damage ends sample
+SMOKE PASS: abandon confirmation
+SMOKE PASS: abandon ends without reward
+SMOKE PASS: visible Japanese text fits layout
+P0A_SMOKE_OK peak=0.5695924
