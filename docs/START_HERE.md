@@ -28,7 +28,7 @@ GitHubのこのリポジトリを任意の場所へcloneし、**clone先のル�
 git clone https://github.com/KOSEIHAMAYA2077/mining-forge.git
 ```
 
-Unityで開く場所は `<clone先>/game/` です。P0aの実装は `feat/p0a-crystal` ブランチにあります。Unity 6000.3.18f1を使い、詳しい起動手順は [game/README](../game/README.md) と [CURRENT](handoff/CURRENT.md) を参照してください。
+Unityで開く場所は `<clone先>/game/` です。現在のP0a-03は `feat/dq11-system-reference` ブランチ、旧P0a-02は `feat/p0a-crystal`。Unity 6000.3.18f1を使い、詳しい起動手順は [game/README](../game/README.md) と [CURRENT](handoff/CURRENT.md) を参照してください。最新の実装要件はCR-003です。
 
 ## 読み順と次の依頼
 

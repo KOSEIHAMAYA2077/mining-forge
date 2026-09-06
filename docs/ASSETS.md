@@ -2,6 +2,20 @@
 
 更新日：2026-09-06。P0a-02は2Dの盤面を使用。導入済みと調査候補を以下で区別する。
 
+## P0a-03で実際に使用する素材（2026-09-07）
+
+| 素材 | 配置 | 出典・用途 |
+| --- | --- | --- |
+| 鍛冶台背景 | `game/Assets/Resources/ForgeArt/workbench.png` | 内蔵imagegenで新規生成。暗い鍛冶台と周辺の炉・道具、中央はUI用に静かな面という指定。画像を実画面の背景として使用 |
+| 熱した金属の面 | `game/Assets/Resources/ForgeArt/hot-metal.png` | 内蔵imagegenで新規生成した金属面テクスチャ。ForgeIngotGraphicの輪郭にUVを対応させて使用。元画像は溶岩に近い表面にも見えるため、最終材質の品質評価は未了 |
+| 地金の輪郭・UI・ハンマー | `ForgeIngotGraphic.cs`、`ForgeGame.cs`、`ForgeEffects.cs` | 本プロジェクト制作。輪・刃・盾・斧・板などを表示。モデルの移植ではない |
+| 打撃音 | `Audio/impactMining_001.ogg` | 導入済みKenney Impact Sounds / CC0。実行時に再生 |
+| 火花 | `Art/spark_01.png` | 導入済みKenney Particle Pack / CC0。打撃・会心の粒子 |
+| 日本語フォント | `Fonts/NotoSansCJKjp-Regular.otf` | 導入済みNoto Sans CJK JP / OFL |
+| 状態音 | `ForgeEffects.cs` | 本プロジェクトの短い合成音。会心・調整・結果など |
+
+PNGの生成元は `exec-f364ede2-f390-4860-b07c-66a1b0d1d8c2.png` と `exec-bbf87028-78ea-4997-9205-48e84531f3a4.png`。前作Lucent Kit、CR-002の結晶画像、DQの画像・音源・モデルはP0a-03に使用していない。UI文字とゲージは焼き込み画像ではなく動的に描画する。
+
 ## CR-002用に保存したもの（ゲーム未導入）
 
 | 素材 | 保存場所 | 出典・状態 |
