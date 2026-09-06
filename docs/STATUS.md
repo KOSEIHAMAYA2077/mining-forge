@@ -4,7 +4,7 @@
 
 ## 現在地
 
-M1 / P0a-01：ゲームソース `ef89cd0`、[PR #6](https://github.com/KOSEIHAMAYA2077/mining-forge/pull/6)、main未統合。初回感想を受領し、[プレイメモ](playtests/2026-09-06-P0a-01.md)と[CR-001（検討中）](handoff/changes/CR-001.md)へ整理。今回ゲーム変更・再ビルドなし。
+M1 / P0a-01：ゲームソース `ef89cd0`、[PR #6](https://github.com/KOSEIHAMAYA2077/mining-forge/pull/6)、main未統合。追加フィードバックからP0a-02の [CR-001](handoff/changes/CR-001.md) と [詳細仕様](handoff/changes/CR-001-SPEC.md) を作成。次版は2Dの盤面・4コマンド・範囲技・活性と調整を含む。今回ゲーム変更・再ビルドなし。
 
 ## 完了
 
@@ -24,4 +24,4 @@ M1 / P0a-01：ゲームソース `ef89cd0`、[PR #6](https://github.com/KOSEIHAM
 
 ## 次の一件
 
-設計相談へプレイメモとCR-001を渡し、最小の盤面・技・表示と比較条件を絞る。状態変化は別に必要性を検討、表現は2D第一候補、持ち込みスキルセットは将来案。P0bや変更案の一括実装へ進めない。起動場所・ソース・PRは [CURRENT](handoff/CURRENT.md)、今回の記録は [セッション](sessions/2026/09/06/2206-p0a-feedback.md)。
+実装担当へCR-001とCR-001-SPECを指定してP0a-02を依頼する。数値・活性という名称・損傷ルールは設計上の仮設定。試作で確認し、調整根拠を残す。P0b、敵、持ち込みスキルには進まない。現在の起動場所・ソース・PRは [CURRENT](handoff/CURRENT.md)。今回の設計記録は [セッション](sessions/2026/09/06/03-board-reference-design.md)。
