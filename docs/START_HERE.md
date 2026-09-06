@@ -28,7 +28,7 @@ GitHubのこのリポジトリを任意の場所へcloneし、**clone先のル�
 git clone https://github.com/KOSEIHAMAYA2077/mining-forge.git
 ```
 
-将来Unityで開く場所は `<clone先>/game/` です。現在はUnityプロジェクトが存在しないため、Unity Hubへ登録する段階ではありません。
+Unityで開く場所は `<clone先>/game/` です。P0aの実装は `feat/p0a-crystal` ブランチにあります。Unity 6000.3.18f1を使い、詳しい起動手順は [game/README](../game/README.md) と [CURRENT](handoff/CURRENT.md) を参照してください。
 
 ## 読み順と次の依頼
 
@@ -38,7 +38,7 @@ git clone https://github.com/KOSEIHAMAYA2077/mining-forge.git
 4. `docs/handoff/CURRENT.md`：次の一件と引き継ぎ
 5. 試作を依頼する場合だけ `docs/PROTOTYPE_0.md` と `docs/handoff/IMPLEMENTATION_PROMPT.md`
 
-今回は調査・コンセプト整理・GitHubの設計基盤までが依頼範囲です。実装用プロンプトは次回依頼するための準備です。
+2026-09-06の追加依頼で、Issue #1のP0a（結晶1個を採る）実装と試遊版の引き渡しへ進んでいます。今回P0bの実装は含めません。
 
 ## 文書の使い分け
 
