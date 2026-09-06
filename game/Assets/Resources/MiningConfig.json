@@ -1,0 +1,11 @@
+{
+  "centers": [50, 60, 40],
+  "halfWidth": 5,
+  "focus": 32,
+  "separationMargin": 15,
+  "fatalMargin": 20,
+  "criticalPercent": 10,
+  "minimum": [10, 24, 4, 10],
+  "maximum": [14, 32, 6, 14],
+  "costs": [2, 4, 2, 5]
+}

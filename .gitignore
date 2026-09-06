@@ -14,6 +14,7 @@
 /game/*.slnx
 /game/*.user
 /game/*.pidb
+/game/Assets/Resources/PerformanceTestRun*.json*
 
 # Local tools and export results
 .DS_Store
@@ -22,6 +23,8 @@ desktop.ini
 /tmp/
 /builds/
 /artifacts/
+/tests/bin/
+/tests/obj/
 
 # Credentials; sample configuration may be tracked
 .env

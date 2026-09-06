@@ -1,0 +1,384 @@
+BOARD SMOKE PASS: layout 01-commands-1280 / まずは「特技」で範囲を選び、重なるマスを見比べよう。
+BOARD SMOKE PASS: layout 01-commands-1280 / たたく
+BOARD SMOKE PASS: layout 01-commands-1280 / 試遊をやり直す
+BOARD SMOKE PASS: layout 01-commands-1280 /
+BOARD SMOKE PASS: layout 01-commands-1280 / A
+BOARD SMOKE PASS: layout 01-commands-1280 /
+BOARD SMOKE PASS: layout 01-commands-1280 / 採取の手順
+BOARD SMOKE PASS: layout 01-commands-1280 / 未分離  ·  30以上
+BOARD SMOKE PASS: layout 01-commands-1280 / 芯を守り、形を残す
+BOARD SMOKE PASS: layout 01-commands-1280 / 未分離  ·  60以上
+BOARD SMOKE PASS: layout 01-commands-1280 /
+BOARD SMOKE PASS: layout 01-commands-1280 / C    0 / 80
+BOARD SMOKE PASS: layout 01-commands-1280 / 緑：適正帯    白：中心 赤線：破損    灰線：分離
+BOARD SMOKE PASS: layout 01-commands-1280 / 詳しく見る
+BOARD SMOKE PASS: layout 01-commands-1280 /
+BOARD SMOKE PASS: layout 01-commands-1280 / 閉じる
+BOARD SMOKE PASS: layout 01-commands-1280 / 緑の帯を狙い、隣を巻き込む範囲と活性の変化を見比べよう。
+BOARD SMOKE PASS: layout 01-commands-1280 /
+BOARD SMOKE PASS: layout 01-commands-1280 / D    0 / 50
+BOARD SMOKE PASS: layout 01-commands-1280 / 採取する
+BOARD SMOKE PASS: layout 01-commands-1280 / 集中力  120 / 120
+BOARD SMOKE PASS: layout 01-commands-1280 / 主コマンド以外
+BOARD SMOKE PASS: layout 01-commands-1280 / E
+BOARD SMOKE PASS: layout 01-commands-1280 / ·
+BOARD SMOKE PASS: layout 01-commands-1280 / B
+BOARD SMOKE PASS: layout 01-commands-1280 / 打撃1回で −50
+BOARD SMOKE PASS: layout 01-commands-1280 / 高いほど削れやすい
+BOARD SMOKE PASS: layout 01-commands-1280 / F
+BOARD SMOKE PASS: layout 01-commands-1280 / B    0 / 80
+BOARD SMOKE PASS: layout 01-commands-1280 / A    0 / 50
+BOARD SMOKE PASS: layout 01-commands-1280 / C
+BOARD SMOKE PASS: layout 01-commands-1280 / ·
+BOARD SMOKE PASS: layout 01-commands-1280 /
+BOARD SMOKE PASS: layout 01-commands-1280 / 未分離  ·  30以上
+BOARD SMOKE PASS: layout 01-commands-1280 / D
+BOARD SMOKE PASS: layout 01-commands-1280 / 未分離  ·  60以上
+BOARD SMOKE PASS: layout 01-commands-1280 / MINING FORGE
+BOARD SMOKE PASS: layout 01-commands-1280 / 未分離  ·  90以上
+BOARD SMOKE PASS: layout 01-commands-1280 / ◆
+BOARD SMOKE PASS: layout 01-commands-1280 / 晶脈の標本  ·  6部位    ／    見込み品質 3  損傷品
+BOARD SMOKE PASS: layout 01-commands-1280 / 設定
+BOARD SMOKE PASS: layout 01-commands-1280 / 活性  1000    ／    効果倍率 1.00
+BOARD SMOKE PASS: layout 01-commands-1280 / 未分離  ·  90以上
+BOARD SMOKE PASS: layout 01-commands-1280 / E    0 / 110
+BOARD SMOKE PASS: layout 01-commands-1280 / 晶脈の標本  /  採取試験
+BOARD SMOKE PASS: layout 01-commands-1280 / 特技
+BOARD SMOKE PASS: layout 01-commands-1280 / F    0 / 110
+BOARD SMOKE PASS: layout 01-commands-1280 / 時間では減りません
+BOARD SMOKE PASS: layout 01-commands-1280 / P0a-02  ·  SEED 1701
+BOARD SMOKE PASS: layout 01-commands-1280 / ↑↓←→ 選択  /  Enter 決定  /  Esc 戻る
+BOARD SMOKE PASS: rendered frame 01-commands-1280
+BOARD SMOKE PASS: layout 01b-skills-1280 / まずは「特技」で範囲を選び、重なるマスを見比べよう。
+BOARD SMOKE PASS: layout 01b-skills-1280 /
+BOARD SMOKE PASS: layout 01b-skills-1280 / A
+BOARD SMOKE PASS: layout 01b-skills-1280 / 芯を守り、形を残す
+BOARD SMOKE PASS: layout 01b-skills-1280 / そっと削る   −3
+BOARD SMOKE PASS: layout 01b-skills-1280 /
+BOARD SMOKE PASS: layout 01b-skills-1280 / 縦打ち   −8
+BOARD SMOKE PASS: layout 01b-skills-1280 / D    0 / 50
+BOARD SMOKE PASS: layout 01b-skills-1280 / 横打ち   −8
+BOARD SMOKE PASS: layout 01b-skills-1280 / E
+BOARD SMOKE PASS: layout 01b-skills-1280 / B
+BOARD SMOKE PASS: layout 01b-skills-1280 / 打撃1回で −50
+BOARD SMOKE PASS: layout 01b-skills-1280 / ·
+BOARD SMOKE PASS: layout 01b-skills-1280 /
+BOARD SMOKE PASS: layout 01b-skills-1280 / 未分離  ·  30以上
+BOARD SMOKE PASS: layout 01b-skills-1280 / 右下へ2×2  +18–26
+BOARD SMOKE PASS: layout 01b-skills-1280 / D
+BOARD SMOKE PASS: layout 01b-skills-1280 / 未分離  ·  60以上
+BOARD SMOKE PASS: layout 01b-skills-1280 / MINING FORGE
+BOARD SMOKE PASS: layout 01b-skills-1280 / 未分離  ·  90以上
+BOARD SMOKE PASS: layout 01b-skills-1280 / 晶脈の標本  ·  6部位    ／    見込み品質 3  損傷品
+BOARD SMOKE PASS: layout 01b-skills-1280 / 活性  1000    ／    効果倍率 1.00
+BOARD SMOKE PASS: layout 01b-skills-1280 / E    0 / 110
+BOARD SMOKE PASS: layout 01b-skills-1280 / 晶脈の標本  /  採取試験
+BOARD SMOKE PASS: layout 01b-skills-1280 / P0a-02  ·  SEED 1701
+BOARD SMOKE PASS: layout 01b-skills-1280 / 強打   −8
+BOARD SMOKE PASS: layout 01b-skills-1280 / 右隣と2マス  +18–26
+BOARD SMOKE PASS: layout 01b-skills-1280 / 下隣と2マス  +18–26
+BOARD SMOKE PASS: layout 01b-skills-1280 /
+BOARD SMOKE PASS: layout 01b-skills-1280 / 採取の手順
+BOARD SMOKE PASS: layout 01b-skills-1280 / 未分離  ·  30以上
+BOARD SMOKE PASS: layout 01b-skills-1280 / 戻る
+BOARD SMOKE PASS: layout 01b-skills-1280 / 1マス・繊細に  +9–13
+BOARD SMOKE PASS: layout 01b-skills-1280 / 未分離  ·  60以上
+BOARD SMOKE PASS: layout 01b-skills-1280 /
+BOARD SMOKE PASS: layout 01b-skills-1280 / C    0 / 80
+BOARD SMOKE PASS: layout 01b-skills-1280 / 緑：適正帯    白：中心 赤線：破損    灰線：分離
+BOARD SMOKE PASS: layout 01b-skills-1280 / 活性を上げる   −8
+BOARD SMOKE PASS: layout 01b-skills-1280 / 緑の帯を狙い、隣を巻き込む範囲と活性の変化を見比べよう。
+BOARD SMOKE PASS: layout 01b-skills-1280 /
+BOARD SMOKE PASS: layout 01b-skills-1280 / 集中力  120 / 120
+BOARD SMOKE PASS: layout 01b-skills-1280 / 活性を鎮める   −4
+BOARD SMOKE PASS: layout 01b-skills-1280 / ·
+BOARD SMOKE PASS: layout 01b-skills-1280 / 高いほど削れやすい
+BOARD SMOKE PASS: layout 01b-skills-1280 / F
+BOARD SMOKE PASS: layout 01b-skills-1280 / B    0 / 80
+BOARD SMOKE PASS: layout 01b-skills-1280 / A    0 / 50
+BOARD SMOKE PASS: layout 01b-skills-1280 / C
+BOARD SMOKE PASS: layout 01b-skills-1280 / 活性 −200
+BOARD SMOKE PASS: layout 01b-skills-1280 / 四点打ち   −14
+BOARD SMOKE PASS: layout 01b-skills-1280 / 未分離  ·  90以上
+BOARD SMOKE PASS: layout 01b-skills-1280 / ◆
+BOARD SMOKE PASS: layout 01b-skills-1280 / 1マス・大きく  +36–52
+BOARD SMOKE PASS: layout 01b-skills-1280 / F    0 / 110
+BOARD SMOKE PASS: layout 01b-skills-1280 / 時間では減りません
+BOARD SMOKE PASS: layout 01b-skills-1280 / 活性 +300
+BOARD SMOKE PASS: layout 01b-skills-1280 / ↑↓←→ 選択  /  Enter 決定  /  Esc 戻る
+BOARD SMOKE PASS: rendered frame 01b-skills-1280
+BOARD SMOKE PASS: invalid anchor rejected
+BOARD SMOKE PASS: invalid confirm preserves focus
+BOARD SMOKE PASS: layout 02-range-preview-1280 /
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 通常 18–26 会心10%  36–52
+BOARD SMOKE PASS: layout 02-range-preview-1280 / A
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 芯を守り、形を残す
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 通常 18–26 会心10%  36–50
+BOARD SMOKE PASS: layout 02-range-preview-1280 / D    0 / 50
+BOARD SMOKE PASS: layout 02-range-preview-1280 / E
+BOARD SMOKE PASS: layout 02-range-preview-1280 / B
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 打撃1回で −50
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 戻る
+BOARD SMOKE PASS: layout 02-range-preview-1280 / ·
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 通常 18–26 会心10%  36–52
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 未分離  ·  30以上
+BOARD SMOKE PASS: layout 02-range-preview-1280 / D
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 四点打ち
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 未分離  ·  60以上
+BOARD SMOKE PASS: layout 02-range-preview-1280 / MINING FORGE
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 未分離  ·  90以上
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 四点打ち  ·  右下へ2×2  ·  集中 −14  ·  1マス +18–26
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 活性  1000    ／    効果倍率 1.00
+BOARD SMOKE PASS: layout 02-range-preview-1280 / E    0 / 110
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 晶脈の標本  /  採取試験
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 右下へ2×2 集中力 −14
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 決定して実行
+BOARD SMOKE PASS: layout 02-range-preview-1280 / P0a-02  ·  SEED 1701
+BOARD SMOKE PASS: layout 02-range-preview-1280 /
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 採取の手順
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 未分離  ·  30以上
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 未分離  ·  60以上
+BOARD SMOKE PASS: layout 02-range-preview-1280 /
+BOARD SMOKE PASS: layout 02-range-preview-1280 / C    0 / 80
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 緑：適正帯    白：中心 赤線：破損    灰線：分離
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 決定前の予測  ／  活性 1000 → 950 黄＝通常の到達範囲  ·  水色の印＝会心の到達範囲
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 通常 18–26 会心10%  36–50
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 集中力  120 / 120
+BOARD SMOKE PASS: layout 02-range-preview-1280 / ·
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 高いほど削れやすい
+BOARD SMOKE PASS: layout 02-range-preview-1280 / F
+BOARD SMOKE PASS: layout 02-range-preview-1280 / B    0 / 80
+BOARD SMOKE PASS: layout 02-range-preview-1280 / A    0 / 50
+BOARD SMOKE PASS: layout 02-range-preview-1280 / C
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 位置を選んで決定。 範囲に空きマスが 含まれる技は使えません。
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 未分離  ·  90以上
+BOARD SMOKE PASS: layout 02-range-preview-1280 / ◆
+BOARD SMOKE PASS: layout 02-range-preview-1280 / F    0 / 110
+BOARD SMOKE PASS: layout 02-range-preview-1280 / 時間では減りません
+BOARD SMOKE PASS: layout 02-range-preview-1280 / ↑↓←→ 選択  /  Enter 決定  /  Esc 戻る
+BOARD SMOKE PASS: rendered frame 02-range-preview-1280
+BOARD SMOKE PASS: menus and pause are free
+BOARD SMOKE PASS: double confirm and shared activity
+BOARD SMOKE PASS: preview RNG cell 0
+BOARD SMOKE PASS: preview RNG cell 1
+BOARD SMOKE PASS: preview RNG cell 2
+BOARD SMOKE PASS: preview RNG cell 3
+BOARD SMOKE PASS: preview RNG cell 4
+BOARD SMOKE PASS: preview RNG cell 5
+BOARD SMOKE PASS: activity adjustment
+BOARD SMOKE PASS: calming adjustment
+BOARD SMOKE PASS: range and activity play sequence recovers
+BOARD SMOKE PASS: layout 03-assessment-1920 / C +9 ✓適正
+BOARD SMOKE PASS: layout 03-assessment-1920 /
+BOARD SMOKE PASS: layout 03-assessment-1920 / D   48 / 50    帯 45–55    分離 30以上    適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 / A
+BOARD SMOKE PASS: layout 03-assessment-1920 / 芯を守り、形を残す
+BOARD SMOKE PASS: layout 03-assessment-1920 /
+BOARD SMOKE PASS: layout 03-assessment-1920 / D    48 / 50
+BOARD SMOKE PASS: layout 03-assessment-1920 / E
+BOARD SMOKE PASS: layout 03-assessment-1920 / B
+BOARD SMOKE PASS: layout 03-assessment-1920 / 現在の仕上がり
+BOARD SMOKE PASS: layout 03-assessment-1920 / E   108 / 110    帯 105–115    分離 90以上    適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 / B   75 / 80    帯 75–85    分離 60以上    適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 / 打撃1回で −50
+BOARD SMOKE PASS: layout 03-assessment-1920 / A   50 / 50    帯 45–55    分離 30以上    適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 / ·
+BOARD SMOKE PASS: layout 03-assessment-1920 /
+BOARD SMOKE PASS: layout 03-assessment-1920 / ◆ 中心ぴったり
+BOARD SMOKE PASS: layout 03-assessment-1920 / D
+BOARD SMOKE PASS: layout 03-assessment-1920 / F   106 / 110    帯 105–115    分離 90以上    適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 / 上質の原石 × 1 を回収できます
+BOARD SMOKE PASS: layout 03-assessment-1920 / MINING FORGE
+BOARD SMOKE PASS: layout 03-assessment-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 / 晶脈の標本  ·  6部位    ／    見込み品質 100  上質
+BOARD SMOKE PASS: layout 03-assessment-1920 / 活性  500    ／    効果倍率 0.75
+BOARD SMOKE PASS: layout 03-assessment-1920 / E    108 / 110
+BOARD SMOKE PASS: layout 03-assessment-1920 / 晶脈の標本  /  採取試験
+BOARD SMOKE PASS: layout 03-assessment-1920 / P0a-02  ·  SEED 1701
+BOARD SMOKE PASS: layout 03-assessment-1920 / C   83 / 80    帯 75–85    分離 60以上    適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 / 品質 100 / 100    ・    確認だけでは集中力・活性は減りません
+BOARD SMOKE PASS: layout 03-assessment-1920 /
+BOARD SMOKE PASS: layout 03-assessment-1920 / 採取の手順
+BOARD SMOKE PASS: layout 03-assessment-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 /
+BOARD SMOKE PASS: layout 03-assessment-1920 / C    83 / 80
+BOARD SMOKE PASS: layout 03-assessment-1920 / 緑：適正帯    白：中心 赤線：破損    灰線：分離
+BOARD SMOKE PASS: layout 03-assessment-1920 / 全ての部位が分離済み。さらに仕上げるか、今の品質で採取できます。
+BOARD SMOKE PASS: layout 03-assessment-1920 /
+BOARD SMOKE PASS: layout 03-assessment-1920 / 盤面に戻る
+BOARD SMOKE PASS: layout 03-assessment-1920 / 集中力  16 / 120
+BOARD SMOKE PASS: layout 03-assessment-1920 / ·
+BOARD SMOKE PASS: layout 03-assessment-1920 / 高いほど削れやすい
+BOARD SMOKE PASS: layout 03-assessment-1920 / F
+BOARD SMOKE PASS: layout 03-assessment-1920 / B    75 / 80
+BOARD SMOKE PASS: layout 03-assessment-1920 / A    50 / 50
+BOARD SMOKE PASS: layout 03-assessment-1920 / C
+BOARD SMOKE PASS: layout 03-assessment-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 03-assessment-1920 / ◆
+BOARD SMOKE PASS: layout 03-assessment-1920 / F    106 / 110
+BOARD SMOKE PASS: layout 03-assessment-1920 / 時間では減りません
+BOARD SMOKE PASS: layout 03-assessment-1920 / ↑↓←→ 選択  /  Enter 決定  /  Esc 戻る
+BOARD SMOKE PASS: rendered frame 03-assessment-1920
+BOARD SMOKE PASS: layout 04-exposed-1920 / C +9 ✓適正
+BOARD SMOKE PASS: layout 04-exposed-1920 /
+BOARD SMOKE PASS: layout 04-exposed-1920 / 設定
+BOARD SMOKE PASS: layout 04-exposed-1920 / A
+BOARD SMOKE PASS: layout 04-exposed-1920 / 芯を守り、形を残す
+BOARD SMOKE PASS: layout 04-exposed-1920 /
+BOARD SMOKE PASS: layout 04-exposed-1920 / D    48 / 50
+BOARD SMOKE PASS: layout 04-exposed-1920 / 詳しく見る
+BOARD SMOKE PASS: layout 04-exposed-1920 / E
+BOARD SMOKE PASS: layout 04-exposed-1920 / B
+BOARD SMOKE PASS: layout 04-exposed-1920 / 打撃1回で −50
+BOARD SMOKE PASS: layout 04-exposed-1920 / 主コマンド以外
+BOARD SMOKE PASS: layout 04-exposed-1920 / ·
+BOARD SMOKE PASS: layout 04-exposed-1920 /
+BOARD SMOKE PASS: layout 04-exposed-1920 / ◆ 中心ぴったり
+BOARD SMOKE PASS: layout 04-exposed-1920 / D
+BOARD SMOKE PASS: layout 04-exposed-1920 / 採取する
+BOARD SMOKE PASS: layout 04-exposed-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 04-exposed-1920 / MINING FORGE
+BOARD SMOKE PASS: layout 04-exposed-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 04-exposed-1920 / 晶脈の標本  ·  6部位    ／    見込み品質 100  上質
+BOARD SMOKE PASS: layout 04-exposed-1920 / 活性  500    ／    効果倍率 0.75
+BOARD SMOKE PASS: layout 04-exposed-1920 / 特技
+BOARD SMOKE PASS: layout 04-exposed-1920 / E    108 / 110
+BOARD SMOKE PASS: layout 04-exposed-1920 / 晶脈の標本  /  採取試験
+BOARD SMOKE PASS: layout 04-exposed-1920 / P0a-02  ·  SEED 1701
+BOARD SMOKE PASS: layout 04-exposed-1920 / たたく
+BOARD SMOKE PASS: layout 04-exposed-1920 /
+BOARD SMOKE PASS: layout 04-exposed-1920 / 採取の手順
+BOARD SMOKE PASS: layout 04-exposed-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 04-exposed-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 04-exposed-1920 / 試遊をやり直す
+BOARD SMOKE PASS: layout 04-exposed-1920 /
+BOARD SMOKE PASS: layout 04-exposed-1920 / C    83 / 80
+BOARD SMOKE PASS: layout 04-exposed-1920 / 緑：適正帯    白：中心 赤線：破損    灰線：分離
+BOARD SMOKE PASS: layout 04-exposed-1920 / 全ての部位が分離済み。さらに仕上げるか、今の品質で採取できます。
+BOARD SMOKE PASS: layout 04-exposed-1920 /
+BOARD SMOKE PASS: layout 04-exposed-1920 / 集中力  16 / 120
+BOARD SMOKE PASS: layout 04-exposed-1920 / 閉じる
+BOARD SMOKE PASS: layout 04-exposed-1920 / ·
+BOARD SMOKE PASS: layout 04-exposed-1920 / 高いほど削れやすい
+BOARD SMOKE PASS: layout 04-exposed-1920 / F
+BOARD SMOKE PASS: layout 04-exposed-1920 / B    75 / 80
+BOARD SMOKE PASS: layout 04-exposed-1920 / A    50 / 50
+BOARD SMOKE PASS: layout 04-exposed-1920 / C
+BOARD SMOKE PASS: layout 04-exposed-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 04-exposed-1920 / ◆
+BOARD SMOKE PASS: layout 04-exposed-1920 / F    106 / 110
+BOARD SMOKE PASS: layout 04-exposed-1920 / 時間では減りません
+BOARD SMOKE PASS: layout 04-exposed-1920 / ↑↓←→ 選択  /  Enter 決定  /  Esc 戻る
+BOARD SMOKE PASS: rendered frame 04-exposed-1920
+BOARD SMOKE PASS: one reward
+BOARD SMOKE PASS: layout 05-result-1920 / 上質の原石を1個回収しました。
+BOARD SMOKE PASS: layout 05-result-1920 /
+BOARD SMOKE PASS: layout 05-result-1920 / A
+BOARD SMOKE PASS: layout 05-result-1920 / 終了
+BOARD SMOKE PASS: layout 05-result-1920 / 上質の原石 × 1    品質 100
+BOARD SMOKE PASS: layout 05-result-1920 / 芯を守り、形を残す
+BOARD SMOKE PASS: layout 05-result-1920 / 手数 17    残り集中力 16    最終活性 500
+BOARD SMOKE PASS: layout 05-result-1920 /
+BOARD SMOKE PASS: layout 05-result-1920 / D    48 / 50
+BOARD SMOKE PASS: layout 05-result-1920 / E
+BOARD SMOKE PASS: layout 05-result-1920 / B
+BOARD SMOKE PASS: layout 05-result-1920 / 打撃1回で −50
+BOARD SMOKE PASS: layout 05-result-1920 / ·
+BOARD SMOKE PASS: layout 05-result-1920 /
+BOARD SMOKE PASS: layout 05-result-1920 / ◆ 中心ぴったり
+BOARD SMOKE PASS: layout 05-result-1920 / D
+BOARD SMOKE PASS: layout 05-result-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 05-result-1920 / MINING FORGE
+BOARD SMOKE PASS: layout 05-result-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 05-result-1920 / 晶脈の標本  ·  6部位    ／    見込み品質 100  上質
+BOARD SMOKE PASS: layout 05-result-1920 / 試遊用の結果です。工房・永続保存は次の段階。 次は同じ条件で、違う技や順番を試せます。
+BOARD SMOKE PASS: layout 05-result-1920 / 活性  500    ／    効果倍率 0.75
+BOARD SMOKE PASS: layout 05-result-1920 / 同じ条件でもう一度
+BOARD SMOKE PASS: layout 05-result-1920 / E    108 / 110
+BOARD SMOKE PASS: layout 05-result-1920 / 晶脈の標本  /  採取試験
+BOARD SMOKE PASS: layout 05-result-1920 / P0a-02  ·  SEED 1701
+BOARD SMOKE PASS: layout 05-result-1920 / 採取成功
+BOARD SMOKE PASS: layout 05-result-1920 / 別の乱数で試す
+BOARD SMOKE PASS: layout 05-result-1920 /
+BOARD SMOKE PASS: layout 05-result-1920 / 採取の手順
+BOARD SMOKE PASS: layout 05-result-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 05-result-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 05-result-1920 /
+BOARD SMOKE PASS: layout 05-result-1920 / C    83 / 80
+BOARD SMOKE PASS: layout 05-result-1920 / 緑：適正帯    白：中心 赤線：破損    灰線：分離
+BOARD SMOKE PASS: layout 05-result-1920 / 全ての部位が分離済み。さらに仕上げるか、今の品質で採取できます。
+BOARD SMOKE PASS: layout 05-result-1920 /
+BOARD SMOKE PASS: layout 05-result-1920 / 集中力  16 / 120
+BOARD SMOKE PASS: layout 05-result-1920 / ·
+BOARD SMOKE PASS: layout 05-result-1920 / 高いほど削れやすい
+BOARD SMOKE PASS: layout 05-result-1920 / F
+BOARD SMOKE PASS: layout 05-result-1920 / B    75 / 80
+BOARD SMOKE PASS: layout 05-result-1920 / A    50 / 50
+BOARD SMOKE PASS: layout 05-result-1920 / C
+BOARD SMOKE PASS: layout 05-result-1920 / 設定
+BOARD SMOKE PASS: layout 05-result-1920 / ✓ 適正帯
+BOARD SMOKE PASS: layout 05-result-1920 / ◆
+BOARD SMOKE PASS: layout 05-result-1920 / F    106 / 110
+BOARD SMOKE PASS: layout 05-result-1920 / 時間では減りません
+BOARD SMOKE PASS: layout 05-result-1920 / ↑↓←→ 選択  /  Enter 決定  /  Esc 戻る
+BOARD SMOKE PASS: rendered frame 05-result-1920
+BOARD SMOKE PASS: unworked no reward
+BOARD SMOKE PASS: broken local cell continues
+BOARD SMOKE PASS: layout 06-broken-1920 / A +34 !帯越え
+BOARD SMOKE PASS: layout 06-broken-1920 /
+BOARD SMOKE PASS: layout 06-broken-1920 / 試遊をやり直す
+BOARD SMOKE PASS: layout 06-broken-1920 / A
+BOARD SMOKE PASS: layout 06-broken-1920 / 芯を守り、形を残す
+BOARD SMOKE PASS: layout 06-broken-1920 / たたく
+BOARD SMOKE PASS: layout 06-broken-1920 /
+BOARD SMOKE PASS: layout 06-broken-1920 / D    0 / 50
+BOARD SMOKE PASS: layout 06-broken-1920 / E
+BOARD SMOKE PASS: layout 06-broken-1920 / B
+BOARD SMOKE PASS: layout 06-broken-1920 / 打撃1回で −50
+BOARD SMOKE PASS: layout 06-broken-1920 / ·
+BOARD SMOKE PASS: layout 06-broken-1920 /
+BOARD SMOKE PASS: layout 06-broken-1920 / × 破損・損傷品になります
+BOARD SMOKE PASS: layout 06-broken-1920 / D
+BOARD SMOKE PASS: layout 06-broken-1920 / 主コマンド以外
+BOARD SMOKE PASS: layout 06-broken-1920 / 未分離  ·  60以上
+BOARD SMOKE PASS: layout 06-broken-1920 / MINING FORGE
+BOARD SMOKE PASS: layout 06-broken-1920 / 未分離  ·  90以上
+BOARD SMOKE PASS: layout 06-broken-1920 / 晶脈の標本  ·  6部位    ／    見込み品質 2  損傷品
+BOARD SMOKE PASS: layout 06-broken-1920 / 活性  800    ／    効果倍率 0.90
+BOARD SMOKE PASS: layout 06-broken-1920 / E    0 / 110
+BOARD SMOKE PASS: layout 06-broken-1920 / 晶脈の標本  /  採取試験
+BOARD SMOKE PASS: layout 06-broken-1920 / 設定
+BOARD SMOKE PASS: layout 06-broken-1920 / P0a-02  ·  SEED 1701
+BOARD SMOKE PASS: layout 06-broken-1920 / 採取する
+BOARD SMOKE PASS: layout 06-broken-1920 / 詳しく見る
+BOARD SMOKE PASS: layout 06-broken-1920 /
+BOARD SMOKE PASS: layout 06-broken-1920 / 採取の手順
+BOARD SMOKE PASS: layout 06-broken-1920 / 未分離  ·  30以上
+BOARD SMOKE PASS: layout 06-broken-1920 / 未分離  ·  60以上
+BOARD SMOKE PASS: layout 06-broken-1920 /
+BOARD SMOKE PASS: layout 06-broken-1920 / A +34
+BOARD SMOKE PASS: layout 06-broken-1920 / C    0 / 80
+BOARD SMOKE PASS: layout 06-broken-1920 / 緑：適正帯    白：中心 赤線：破損    灰線：分離
+BOARD SMOKE PASS: layout 06-broken-1920 / 特技
+BOARD SMOKE PASS: layout 06-broken-1920 / 破損部位があるため品質は最大39です。続けるか、採取を終了できます。
+BOARD SMOKE PASS: layout 06-broken-1920 /
+BOARD SMOKE PASS: layout 06-broken-1920 / 集中力  88 / 120
+BOARD SMOKE PASS: layout 06-broken-1920 / ·
+BOARD SMOKE PASS: layout 06-broken-1920 / 高いほど削れやすい
+BOARD SMOKE PASS: layout 06-broken-1920 / F
+BOARD SMOKE PASS: layout 06-broken-1920 / B    0 / 80
+BOARD SMOKE PASS: layout 06-broken-1920 / A    159 / 50
+BOARD SMOKE PASS: layout 06-broken-1920 / C
+BOARD SMOKE PASS: layout 06-broken-1920 / 閉じる
+BOARD SMOKE PASS: layout 06-broken-1920 / 未分離  ·  90以上
+BOARD SMOKE PASS: layout 06-broken-1920 / ◆
+BOARD SMOKE PASS: layout 06-broken-1920 / F    0 / 110
+BOARD SMOKE PASS: layout 06-broken-1920 / 時間では減りません
+BOARD SMOKE PASS: layout 06-broken-1920 / ↑↓←→ 選択  /  Enter 決定  /  Esc 戻る
+BOARD SMOKE PASS: rendered frame 06-broken-1920
+BOARD SMOKE PASS: audio output
+BOARD SMOKE PASS: mute and shake off
+BOARD SMOKE PASS: Japanese text layout
+P0A02_SMOKE_OK peak=0.5077321
